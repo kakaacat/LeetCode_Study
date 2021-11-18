@@ -10,6 +10,8 @@ package com.kaka.day02;
  */
 
 public class AddTwoNumbers {
+    //法一
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = null, tail = null;
         //进位
@@ -44,5 +46,24 @@ public class AddTwoNumbers {
             tail.next = new ListNode(carry);
         }
         return head;
+    }
+
+    //法二：递归
+
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+        return sum(l1,l2,0);
+    }
+
+    private ListNode sum(ListNode l1, ListNode l2, int add) {
+        if (l1 == null && l2 == null && add == 0){ return null;}
+        //求和
+        int curVal = (l1 == null ? 0 : l1.val) + (l2 == null ? 0 : l2.val) + add;
+        ListNode res = new ListNode(curVal % 10);
+
+        //递归就和
+        ListNode next = sum(l1 == null ? l1 : l1.next, l2 == null ? l2 : l2.next, curVal / 10);
+        res.next = next;
+
+        return res;
     }
 }
