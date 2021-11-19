@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/topic03/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/topic03/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +21,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/topic03/LongestSubstringWithoutRepeatingCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="-120">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#281#292#0" expanded="true" />
+                <element signature="e#417#428#0" expanded="true" />
+                <element signature="e#1331#1351#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +70,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="145" />
-    <option name="y" value="11" />
+    <option name="x" value="573" />
     <option name="width" value="1353" />
     <option name="height" value="1085" />
   </component>
@@ -178,7 +179,7 @@
       <workItem from="1637138874838" duration="2953000" />
       <workItem from="1637223069292" duration="840000" />
       <workItem from="1637224364965" duration="1510000" />
-      <workItem from="1637286136995" duration="3921000" />
+      <workItem from="1637286136995" duration="7487000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode_Study Day01 两数之和">
       <created>1637141127359</created>
@@ -201,11 +202,18 @@
       <option name="project" value="LOCAL" />
       <updated>1637225850669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="LeetCode_Study topic03无重复字符的最长子串">
+      <created>1637306656241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637306656241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9224000" />
+    <option name="totallyTimeSpent" value="12790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,6 +226,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -297,7 +306,8 @@
     <MESSAGE value="LeetCode_Study Day01 两数之和" />
     <MESSAGE value="LeetCode_Study Day02 两数相加" />
     <MESSAGE value="LeetCode_Study Day02 两数相加.法二：递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study Day02 两数相加.法二：递归" />
+    <MESSAGE value="LeetCode_Study topic03无重复字符的最长子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic03无重复字符的最长子串" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -360,11 +370,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/topic03/LongestSubstringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="-120">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#281#292#0" expanded="true" />
+            <element signature="e#417#428#0" expanded="true" />
+            <element signature="e#1331#1351#0" expanded="true" />
           </folding>
         </state>
       </provider>
