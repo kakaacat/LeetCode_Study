@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="LeetCode_Study topic03(滑动窗口HashMap)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaka/topic04/MedianOfTwoSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/topic03/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/topic03/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
@@ -19,15 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/topic03/LongestSubstringWithoutRepeatingCharacters.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/topic04/MedianOfTwoSortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#417#428#0" expanded="true" />
-                <element signature="e#1331#1351#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -52,6 +48,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kaka/day02/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaka/day02/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaka/topic03/LongestSubstringWithoutRepeatingCharacters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/topic04/MedianOfTwoSortedArrays.java" />
       </list>
     </option>
   </component>
@@ -70,8 +67,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="573" />
-    <option name="width" value="1353" />
+    <option name="x" value="571" />
+    <option name="width" value="1355" />
     <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -82,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -133,13 +131,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="kaka" type="462c0819:PsiDirectoryNode" />
-              <item name="topic03" type="462c0819:PsiDirectoryNode" />
+              <item name="topic04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +149,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -179,7 +176,9 @@
       <workItem from="1637138874838" duration="2953000" />
       <workItem from="1637223069292" duration="840000" />
       <workItem from="1637224364965" duration="1510000" />
-      <workItem from="1637286136995" duration="7487000" />
+      <workItem from="1637286136995" duration="7766000" />
+      <workItem from="1637327549467" duration="419000" />
+      <workItem from="1637377516526" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode_Study Day01 两数之和">
       <created>1637141127359</created>
@@ -209,11 +208,18 @@
       <option name="project" value="LOCAL" />
       <updated>1637306656241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LeetCode_Study topic03(滑动窗口HashMap)">
+      <created>1637313830522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637313830522</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12790000" />
+    <option name="totallyTimeSpent" value="14523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,7 +239,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49853373" visible="true" weight="0.1313673" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49853373" visible="true" weight="0.24664879" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -243,7 +249,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32844576" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37096775" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32991204" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -307,7 +313,8 @@
     <MESSAGE value="LeetCode_Study Day02 两数相加" />
     <MESSAGE value="LeetCode_Study Day02 两数相加.法二：递归" />
     <MESSAGE value="LeetCode_Study topic03无重复字符的最长子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic03无重复字符的最长子串" />
+    <MESSAGE value="LeetCode_Study topic03(滑动窗口HashMap)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic03(滑动窗口HashMap)" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -370,13 +377,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/topic03/LongestSubstringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="375">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#417#428#0" expanded="true" />
-            <element signature="e#1331#1351#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/topic04/MedianOfTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -53,7 +53,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         for (int end = 0, start = 0; end < s.length(); ++end){
             char alpha = s.charAt(end);
             if (hashMap.containsKey(alpha)){
-                //更新start，并可以保证start只会往前移动（例如abaaba）
+                //更新start，并可以保证start只会往前移动（例如abba）
                 start = Math.max(start, hashMap.get(alpha));
             }
             hashMap.put(alpha, end + 1);
