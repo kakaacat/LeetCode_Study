@@ -66,9 +66,11 @@ public class MedianOfTwoSortedArrays {
 
         if (k == 1) {return Math.min(nums1[start1], nums2[start2]);}
 
+        //比较位置索引
         int i = start1 + Math.min(len1, k / 2) - 1;
         int j = start2 + Math.min(len2, k / 2) - 1;
 
+        //较小的部分将会被排除
         if (nums1[i] > nums2[j]) {
             return getKth(nums1, start1, end1, nums2, j + 1, end2, k - (j - start2 + 1));
         }
