@@ -7,8 +7,8 @@ import org.junit.Test;
 public class MyTest {
     @Test
     public void test(){
-        String s = "";
-        System.out.println(s.length());
+       int flag = -1;
+        System.out.println(- flag);
     }
 
 }
