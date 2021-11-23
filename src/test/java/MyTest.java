@@ -7,8 +7,11 @@ import org.junit.Test;
 public class MyTest {
     @Test
     public void test(){
-       int flag = -1;
-        System.out.println(- flag);
+       int flag1 = Integer.MAX_VALUE;
+       int flag2 = flag1 / 10;
+       int flag3 = flag2 * 10 + 8;
+       int flag4 = flag2 * 10 + 7;
+        System.out.println(flag1 + "\n" + flag2 + "\n" + flag3 + "\n" + flag4);
     }
 
 }
