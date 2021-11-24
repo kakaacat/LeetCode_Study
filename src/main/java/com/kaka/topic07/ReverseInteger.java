@@ -51,8 +51,7 @@ public class ReverseInteger {
     /**
      * 2.反转字符串
      */
-
-    public int reverse(int x) {
+    public int reverse2(int x) {
         String xString = Integer.toString(x);
         String string = xString;
         int flag = 1;
