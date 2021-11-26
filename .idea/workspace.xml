@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/day01/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/day01/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/day02/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/day02/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/day02/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/day02/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/topic03/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/topic03/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/topic04/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/topic04/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/topic05/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/topic05/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/topic06/ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/topic06/ZigZagConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/topic07/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/topic07/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/topic08/StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/topic08/StringToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/topic09/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/topic09/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1-10/topic10/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_10/topic10/RegularExpressionMatching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +117,7 @@
       <workItem from="1637668649841" duration="22000" />
       <workItem from="1637717274410" duration="4694000" />
       <workItem from="1637805543219" duration="1852000" />
-      <workItem from="1637889499252" duration="4232000" />
+      <workItem from="1637889499252" duration="5178000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode_Study Day01 两数之和">
       <created>1637141127359</created>
@@ -187,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637807383899</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="LeetCode_Study topic10(正则表达式匹配)">
+      <created>1637910252268</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637910252268</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -240,7 +256,8 @@
     <MESSAGE value="LeetCode_Study topic07(数字反转)" />
     <MESSAGE value="LeetCode_Study topic08(字符串转换整数 (atoi))" />
     <MESSAGE value="LeetCode_Study topic09(回文数)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic09(回文数)" />
+    <MESSAGE value="LeetCode_Study topic10(正则表达式匹配)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic10(正则表达式匹配)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1637652694172">
@@ -255,10 +272,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1637718845206" />
-    <state x="364" y="0" key="CommitChangelistDialog2" timestamp="1637807383304">
+    <state x="570" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1637910172352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="364" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1637807383304" />
+    <state x="570" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1637910172352" />
+    <state x="481" y="82" width="850" height="666" key="CommitChangelistDialog2" timestamp="1637910251550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="481" y="82" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1637910251550" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1637806464924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

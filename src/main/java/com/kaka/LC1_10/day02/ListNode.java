@@ -1,4 +1,4 @@
-package com.kaka.day02;
+package com.kaka.LC1_10.day02;
 
 /**
  * @Author : kaka

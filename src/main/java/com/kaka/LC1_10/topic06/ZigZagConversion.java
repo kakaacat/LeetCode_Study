@@ -1,4 +1,4 @@
-package com.kaka.topic06;
+package com.kaka.LC1_10.topic06;
 
 import java.util.ArrayList;
 import java.util.List;

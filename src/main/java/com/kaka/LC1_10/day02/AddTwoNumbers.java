@@ -1,4 +1,4 @@
-package com.kaka.day02;
+package com.kaka.LC1_10.day02;
 
 /**
  * @Author : kaka
@@ -10,8 +10,9 @@ package com.kaka.day02;
  */
 
 public class AddTwoNumbers {
-    //法一
-
+    /**
+     * 法一
+     */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = null, tail = null;
         //进位
@@ -48,8 +49,9 @@ public class AddTwoNumbers {
         return head;
     }
 
-    //法二：递归
-
+    /**
+     *     法二：递归
+     */
     public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
         return sum(l1,l2,0);
     }

@@ -1,4 +1,4 @@
-package com.kaka.topic04;
+package com.kaka.LC1_10.topic04;
 
 /**
  * @Author : kaka

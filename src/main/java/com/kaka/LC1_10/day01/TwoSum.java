@@ -1,6 +1,4 @@
-package com.kaka.day01;
-
-import org.junit.Test;
+package com.kaka.LC1_10.day01;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,7 +18,9 @@ import java.util.Map;
  */
 public class TwoSum {
 
-    //方法一：暴力枚举
+    /**
+     * 方法一：暴力枚举
+     */
 
     public int[] twoSum01(int[] nums, int target) {
         for(int i = 0; i < nums.length; i++){
@@ -34,7 +34,7 @@ public class TwoSum {
     }
 
 
-    /* 方法二：哈希表
+    /** 方法二：哈希表
     *思路及算法
     *使用哈希表，可以将寻找 target - x 的时间复杂度降低到从 O(N)降低到 O(1)。
     *这样我们创建一个哈希表，对于每一个 x，我们首先查询哈希表中是否存在 target - x
