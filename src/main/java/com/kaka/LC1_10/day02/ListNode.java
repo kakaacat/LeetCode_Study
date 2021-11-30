@@ -5,8 +5,8 @@ package com.kaka.LC1_10.day02;
  * @Date: 2021-11-18 16:15
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     ListNode() {}
     ListNode(int val) { this.val = val; }
