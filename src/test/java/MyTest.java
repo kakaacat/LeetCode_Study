@@ -1,5 +1,6 @@
-import com.kaka.topic10.RegularExpressionMatching;
 import org.junit.Test;
+
+import java.util.Random;
 
 /**
  * @Author : kaka
@@ -8,12 +9,10 @@ import org.junit.Test;
 public class MyTest {
     @Test
     public void test(){
-        String s = "aaabc";
-        String p = "a*b.";
-        RegularExpressionMatching matching = new RegularExpressionMatching();
-        boolean f = matching.isMatch(s, p);
-
-        System.out.println(f);
+        int left = 0;
+        int right = 5;
+        Random random = new Random(System.currentTimeMillis());
+        int randomInt = random.nextInt(right - left);
     }
 
 }
