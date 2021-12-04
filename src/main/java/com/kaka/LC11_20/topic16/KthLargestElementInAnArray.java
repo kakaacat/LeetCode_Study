@@ -103,7 +103,7 @@ public class KthLargestElementInAnArray {
     //建立一个大根堆
     private void buildMaxHeap(int[] nums, int heapSize){
         //从最后一个父节点位置开始调整每一个节点的子树。
-        // 数组长度为heapsize，因此最后一个节点的位置为heapsize-1，所以父节点的位置为heapsize-1-1/2。
+        //数组长度为heapsize，因此最后一个节点的位置为heapsize-1，所以父节点的位置为heapsize-1-1/2。
         for (int i = (heapSize-2)/ 2; i >= 0; --i) {
             maxHeapify(nums, i, heapSize);
         }
