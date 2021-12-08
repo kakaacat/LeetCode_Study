@@ -1,4 +1,4 @@
-package com.kaka.LC21_30.tpoic21;
+package com.kaka.LC21_30.topic21;
 
 import com.kaka.LC1_10.day02.ListNode;
 
