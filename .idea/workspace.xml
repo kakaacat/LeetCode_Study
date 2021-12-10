@@ -136,7 +136,8 @@
       <workItem from="1638843733734" duration="1259000" />
       <workItem from="1638883170989" duration="1561000" />
       <workItem from="1638927004983" duration="48000" />
-      <workItem from="1639048158701" duration="1725000" />
+      <workItem from="1639048158701" duration="1848000" />
+      <workItem from="1639121635345" duration="473000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode_Study Day01 两数之和">
       <created>1637141127359</created>
@@ -327,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638927038288</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="LeetCode_Study topic23(广度优先搜索)">
+      <created>1639049975514</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1639049975514</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -369,7 +377,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study Day01 两数之和" />
     <MESSAGE value="LeetCode_Study Day02 两数相加" />
     <MESSAGE value="LeetCode_Study Day02 两数相加.法二：递归" />
     <MESSAGE value="LeetCode_Study topic03无重复字符的最长子串" />
@@ -394,7 +401,8 @@
     <MESSAGE value="LeetCode_Study topic20(最大子数组和)" />
     <MESSAGE value="LeetCode_Study topic21(合并两个有序链表)" />
     <MESSAGE value="LeetCode_Study topic22(环形链表)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic22(环形链表)" />
+    <MESSAGE value="LeetCode_Study topic23(广度优先搜索)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic23(广度优先搜索)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1637652694172">
@@ -413,10 +421,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="570" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1637910172352" />
-    <state x="683" y="117" width="850" height="666" key="CommitChangelistDialog2" timestamp="1638927037610">
+    <state x="683" y="117" width="850" height="666" key="CommitChangelistDialog2" timestamp="1639049974971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="683" y="117" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1638927037610" />
+    <state x="683" y="117" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1639049974971" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1637806464924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
