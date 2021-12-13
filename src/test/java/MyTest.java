@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 import java.util.Random;
+import java.util.Stack;
 
 /**
  * @Author : kaka
@@ -9,10 +10,12 @@ import java.util.Random;
 public class MyTest {
     @Test
     public void test(){
-        int left = 0;
-        int right = 5;
-        Random random = new Random(System.currentTimeMillis());
-        int randomInt = random.nextInt(right - left);
+        Stack<Integer> integers = new Stack<>();
+        integers.push(1);
+        integers.push(2);
+        integers.push(3);
+        integers.push(4);
+        System.out.println(integers.size());
     }
 
 }
