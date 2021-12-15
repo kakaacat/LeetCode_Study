@@ -1,7 +1,6 @@
 import org.junit.Test;
 
-import java.util.Random;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @Author : kaka
@@ -10,12 +9,20 @@ import java.util.Stack;
 public class MyTest {
     @Test
     public void test(){
-        Stack<Integer> integers = new Stack<>();
-        integers.push(1);
-        integers.push(2);
-        integers.push(3);
-        integers.push(4);
-        System.out.println(integers.size());
+        Map<Character, Character> pairs = new HashMap<Character, Character>() {{
+            put(')', '(');
+            put(']', '[');
+            put('}', '{');
+        }};
+
+        char c = ')';
+
+        Deque<Character> stack = new LinkedList<Character>();
+        stack.push('(');
+        System.out.println(stack.peek());
+        System.out.println(c);
+        System.out.println(pairs.get(c));
+        System.out.println(pairs.get(c) == stack.peek());
     }
 
 }
