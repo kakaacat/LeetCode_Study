@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +152,9 @@
       <workItem from="1639481629440" duration="4495000" />
       <workItem from="1639534204910" duration="98000" />
       <workItem from="1639565705068" duration="4070000" />
+      <workItem from="1639621791716" duration="682000" />
+      <workItem from="1639660787134" duration="2694000" />
+      <workItem from="1639706155697" duration="1367000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode_Study Day01 两数之和">
       <created>1637141127359</created>
@@ -392,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639534286156</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="LeetCode_Study topic30(字符串相加)">
+      <created>1639621866872</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1639621866872</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -434,7 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study topic05(Z 字形变换)" />
     <MESSAGE value="LeetCode_Study topic07(数字反转)" />
     <MESSAGE value="LeetCode_Study topic08(字符串转换整数 (atoi))" />
     <MESSAGE value="LeetCode_Study topic09(回文数)" />
@@ -459,29 +467,30 @@
     <MESSAGE value="LeetCode_Study topic27(二叉树锯齿形层序遍历)" />
     <MESSAGE value="LeetCode_Study topic28(有效的括号)" />
     <MESSAGE value="LeetCode_Study topic29(叉树的最近公共祖先)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic29(叉树的最近公共祖先)" />
+    <MESSAGE value="LeetCode_Study topic30(字符串相加)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic30(字符串相加)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="274" key="#Notifications" timestamp="1637652694172">
+    <state x="651" y="274" key="#Notifications" timestamp="1639660868095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="651" y="274" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1637652694172" />
+    <state x="651" y="274" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1639660868095" />
     <state x="511" y="247" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1637806473168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="247" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1637806473168" />
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1638705184058">
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1639706324293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1638705184058" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1639706324293" />
     <state x="570" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1637910172352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="570" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1637910172352" />
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1639534285470">
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1639621866310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1639534285470" />
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1639621866310" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -506,10 +515,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="146" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1638325584401" />
-    <state x="380" y="117" width="996" height="707" key="SettingsEditor" timestamp="1638843842744">
+    <state x="380" y="117" width="996" height="707" key="SettingsEditor" timestamp="1639707023717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="380" y="117" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1638843842744" />
+    <state x="380" y="117" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1639707023717" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1639049832447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
