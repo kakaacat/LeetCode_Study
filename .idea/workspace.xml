@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC31_40/topic36/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC31_40/topic36/MergeKSortedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +160,7 @@
       <workItem from="1639820076500" duration="74000" />
       <workItem from="1639904438295" duration="930000" />
       <workItem from="1640052855896" duration="3932000" />
-      <workItem from="1640140962444" duration="834000" />
+      <workItem from="1640140962444" duration="1400000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode_Study Day01 两数之和">
       <created>1637141127359</created>
@@ -441,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640056809258</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="LeetCode_Study topic36(合并K的有序列表1)">
+      <created>1640141846635</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1640141846635</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -483,7 +491,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study topic12(整数转罗马数字)" />
     <MESSAGE value="LeetCode_Study topic13(罗马数字转整数)" />
     <MESSAGE value="LeetCode_Study topic14(链表反转)" />
     <MESSAGE value="LeetCode_Study topic15(LRU缓存实现)" />
@@ -508,7 +515,8 @@
     <MESSAGE value="LeetCode_Study topic33(全排列)" />
     <MESSAGE value="LeetCode_Study topic34(搜索旋转排序数组)" />
     <MESSAGE value="LeetCode_Study topic35(环形链表II)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic35(环形链表II)" />
+    <MESSAGE value="LeetCode_Study topic36(合并K的有序列表1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic36(合并K的有序列表1)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1639660868095">
@@ -527,10 +535,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="570" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1637910172352" />
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1640056808802">
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1640141846010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640056808802" />
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640141846010" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

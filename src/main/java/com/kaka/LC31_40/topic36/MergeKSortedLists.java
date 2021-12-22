@@ -65,5 +65,25 @@ public class MergeKSortedLists {
         return head.next;
     }
 
+    /**
+     * 优化方法一: 分治合并
+     *
+     * 时间复杂度为 O(kn×logk)。
+     * 空间复杂度：递归会使用到 O(logk) 空间代价的栈空间。
+     */
+    public ListNode mergeKLists2(ListNode[] lists){
+       return merge(lists, 0, lists.length - 1);
+    }
 
+    private ListNode merge(ListNode[] lists, int l, int r) {
+        if (l == r) {
+            return lists[l];
+        }
+        if (l > r) {
+            return null;
+        }
+
+        int mid = (l + r) / 2;
+        return mergeTwoLists(merge(lists, l, mid), merge(lists, mid + 1, r));
+    }
 }
