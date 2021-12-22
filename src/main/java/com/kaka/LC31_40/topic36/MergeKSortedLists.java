@@ -2,7 +2,7 @@ package com.kaka.LC31_40.topic36;
 
 import com.kaka.LC1_10.day02.ListNode;
 
-import javax.crypto.interfaces.PBEKey;
+import java.util.PriorityQueue;
 
 /**
  * @Author : kaka
@@ -85,5 +85,35 @@ public class MergeKSortedLists {
 
         int mid = (l + r) / 2;
         return mergeTwoLists(merge(lists, l, mid), merge(lists, mid + 1, r));
+    }
+
+    /**
+     * 使用优先队列合并
+     *
+     * 时间复杂度为 O(kn×logk)。
+     * 空间复杂度：这里用了优先队列，优先队列中的元素不超过 k 个，故渐进空间复杂度为 O(k)。
+     */
+    public ListNode mergeKLists3(ListNode[] lists){
+
+        PriorityQueue<Status> queue = new PriorityQueue<>();
+
+        ListNode head = new ListNode(0);
+        ListNode tail = head;
+        for (ListNode node : lists) {
+            if (node != null){
+                //保存的是每个链表的头结点
+                queue.offer(new Status(node.val, node));
+            }
+        }
+
+        while (!queue.isEmpty()){
+            Status f = queue.poll();
+            tail.next = f.node;
+            tail = tail.next;
+            if (f.node.next != null) {
+                queue.offer(new Status(f.node.next.val, f.node.next));
+            }
+        }
+        return head.next;
     }
 }
