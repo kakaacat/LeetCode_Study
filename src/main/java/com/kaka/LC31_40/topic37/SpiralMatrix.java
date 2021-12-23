@@ -55,4 +55,33 @@ public class SpiralMatrix {
 
         return order;
     }
+
+    /**
+     * 2.模拟
+     */
+    public List<Integer> spiralOrder2(int[][] matrix){
+        List<Integer> order = new ArrayList<>();
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return order;
+        }
+        int rows = matrix.length, cols = matrix[0].length;
+        boolean[][] visited = new boolean[rows][cols];
+        int total = rows * cols;
+        int r = 0, c = 0;
+        //{0，1}从左到右、{1，0}从上到下、{0，-1}从右到左、{-1，0}从下到上
+        int[][] directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        int directionIndex = 0;
+        for (int i = 0; i < total; i++) {
+            order.add(matrix[r][c]);
+            visited[r][c] = true;
+            int nextR = r + directions[directionIndex][0], nextC = c + directions[directionIndex][1];
+            //如果到头就重置 directionIndex；
+            if (nextR < 0 || nextR >= rows || nextC < 0 || nextC >= cols || visited[nextR][nextC]){
+                directionIndex = (directionIndex + 1) % 4;
+            }
+            r += directions[directionIndex][0];
+            c += directions[directionIndex][1];
+        }
+        return order;
+    }
 }
