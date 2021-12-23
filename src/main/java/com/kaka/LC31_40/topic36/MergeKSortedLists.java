@@ -95,6 +95,7 @@ public class MergeKSortedLists {
      */
     public ListNode mergeKLists3(ListNode[] lists){
 
+        //优先队列按升序排列
         PriorityQueue<Status> queue = new PriorityQueue<>();
 
         ListNode head = new ListNode(0);
