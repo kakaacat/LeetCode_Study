@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC41_50/topic41/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC41_50/topic41/BinaryTreeInorderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,14 +166,7 @@
       <workItem from="1640312370671" duration="4408000" />
       <workItem from="1640424823846" duration="150000" />
       <workItem from="1640507353713" duration="2505000" />
-      <workItem from="1640575042595" duration="1358000" />
-    </task>
-    <task id="LOCAL-00002" summary="LeetCode_Study Day02 两数相加">
-      <created>1637223895282</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1637223895282</updated>
+      <workItem from="1640575042595" duration="2363000" />
     </task>
     <task id="LOCAL-00003" summary="LeetCode_Study Day02 两数相加.法二：递归">
       <created>1637225850669</created>
@@ -510,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640576393000</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="LeetCode_Study topic40(二叉树的中序遍历1+2)">
+      <created>1640576429355</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1640576429355</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -552,7 +553,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study topic21(合并两个有序链表)" />
     <MESSAGE value="LeetCode_Study topic22(环形链表)" />
     <MESSAGE value="LeetCode_Study topic23(广度优先搜索)" />
     <MESSAGE value="LeetCode_Study topic24(买卖股票的最佳时机)" />
@@ -577,7 +577,8 @@
     <MESSAGE value="LeetCode_Study topic40(接雨水)" />
     <MESSAGE value="LeetCode_Study topic40(接雨水1+2)" />
     <MESSAGE value="LeetCode_Study topic40(二叉树的中序遍历1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic40(二叉树的中序遍历1)" />
+    <MESSAGE value="LeetCode_Study topic40(二叉树的中序遍历1+2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic40(二叉树的中序遍历1+2)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1639660868095">
@@ -600,10 +601,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1640143612914" />
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1640576392372">
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1640576428804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640576392372" />
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640576428804" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
