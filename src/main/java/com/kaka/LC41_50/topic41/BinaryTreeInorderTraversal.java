@@ -60,7 +60,7 @@ public class BinaryTreeInorderTraversal {
     }
 
     /**
-     * Morris 中序遍历
+     * Morris(莫里斯遍历) 中序遍历
      *
      * Morris 遍历算法是另一种遍历二叉树的方法，它能将非递归的中序遍历空间复杂度降为 O(1)。
      * Morris 遍历算法整体步骤如下（假设当前遍历到的节点为 x）：
