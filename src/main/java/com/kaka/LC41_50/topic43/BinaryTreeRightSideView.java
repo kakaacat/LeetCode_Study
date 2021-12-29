@@ -47,4 +47,25 @@ public class BinaryTreeRightSideView {
 
         return res;
     }
+    /**
+     * 2.深度优先搜索
+     */
+    public List<Integer> rightSideView2(TreeNode root){
+        List<Integer> res = new ArrayList<>();
+        dfs(root, 0, res);
+        return res;
+    }
+    //深度优先搜索。按根右左的顺序
+    private void dfs(TreeNode root, int depth, List<Integer> res) {
+        if (root == null){
+            return;
+        }
+        //每一层最右边的结点
+        if (depth == res.size()){
+            res.add(root.val);
+        }
+        depth++;
+        dfs(root.right, depth, res);
+        dfs(root.left, depth, res);
+    }
 }
