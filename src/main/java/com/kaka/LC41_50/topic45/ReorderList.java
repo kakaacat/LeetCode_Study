@@ -50,5 +50,55 @@ public class ReorderList {
         list.get(i).next = null;
     }
 
+    /**
+     * 2.找中点+逆序+合并链表
+     */
+    public void reorderList2(ListNode head){
+        if (head == null){
+            return;
+        }
+        ListNode l1 = head;
+        ListNode mid = findMiddle(head);
+        ListNode l2 = mid.next;
+        mid.next = null;
+        l2 = reverseList(l2);
+        mergeList(l1, l2);
+    }
 
+    private void mergeList(ListNode l1, ListNode l2) {
+        ListNode l1Next;
+        ListNode l2Next;
+        while (l1 != null && l2 != null) {
+            l1Next = l1.next;
+            l2Next = l2.next;
+
+            l1.next = l2;
+            l2.next = l1Next;
+
+            l1 = l1Next;
+            l2 = l2Next;
+        }
+    }
+
+    private ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
+        while (curr != null) {
+           ListNode nextNode = curr.next;
+           curr.next = prev;
+           prev = curr;
+           curr = nextNode;
+        }
+        return prev;
+    }
+
+    private ListNode findMiddle(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast.next != null && fast.next.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
 }
