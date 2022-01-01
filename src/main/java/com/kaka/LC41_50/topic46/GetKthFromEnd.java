@@ -33,5 +33,24 @@ public class GetKthFromEnd {
         return res;
     }
 
+    /**
+     * 2. 快慢指针
+     *
+     * 时间复杂度：O(n)，其中 n 为链表的长度。我们使用快慢指针，只需要一次遍历即可，复杂度为 O(n)。
+     * 空间复杂度：O(1)。
+     */
+    public ListNode getKthFromEnd2(ListNode head, int k){
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null && k > 0){
+            fast = fast.next;
+            k--;
+        }
+        while (fast != null){
+            fast = fast.next;
+            slow = slow.next;
+        }
 
+        return slow;
+    }
 }
