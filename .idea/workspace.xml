@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC41_50/topic45/ReorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC41_50/topic45/ReorderList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,14 +169,8 @@
       <workItem from="1640678368555" duration="2283000" />
       <workItem from="1640760237891" duration="2296000" />
       <workItem from="1640838490970" duration="2114000" />
-      <workItem from="1640950144830" duration="2372000" />
-    </task>
-    <task id="LOCAL-00009" summary="LeetCode_Study topic07(数字反转)">
-      <created>1637636756808</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1637636756808</updated>
+      <workItem from="1640950144830" duration="2463000" />
+      <workItem from="1641019921235" duration="736000" />
     </task>
     <task id="LOCAL-00010" summary="LeetCode_Study topic08(字符串转换整数 (atoi))">
       <created>1637723374908</created>
@@ -515,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640950734654</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="LeetCode_Study topic45(重排链表1+2)">
+      <created>1640952592160</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1640952592160</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TodoView">
@@ -557,7 +557,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study topic28(有效的括号)" />
     <MESSAGE value="LeetCode_Study topic29(叉树的最近公共祖先)" />
     <MESSAGE value="LeetCode_Study topic30(字符串相加)" />
     <MESSAGE value="LeetCode_Study topic31(岛屿数量)" />
@@ -582,7 +581,8 @@
     <MESSAGE value="LeetCode_Study topic43(二叉树的右视图1+2)" />
     <MESSAGE value="LeetCode_Study topic44(爬楼梯)" />
     <MESSAGE value="LeetCode_Study topic45(重排链表)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic45(重排链表)" />
+    <MESSAGE value="LeetCode_Study topic45(重排链表1+2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic45(重排链表1+2)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1639660868095">
@@ -605,10 +605,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1640143612914" />
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1640950733659">
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1640952591554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640950733659" />
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1640952591554" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
