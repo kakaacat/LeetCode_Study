@@ -14,7 +14,7 @@ package com.kaka.LC41_50.topic49;
  */
 public class SqrtX {
     /**
-     * 二分查找法
+     * 1、二分查找法
      *
      * 时间复杂度：O(logx)，即为二分查找需要的次数。
      * 空间复杂度：O(1)。
@@ -33,5 +33,22 @@ public class SqrtX {
         }
 
         return ans;
+    }
+    /**
+     * 2、牛顿迭代
+     */
+    public int mySqrt2(int x){
+        if (x == 0){
+            return 0;
+        }
+        double c = x, x0 = x;
+        while (true){
+            double xi = 0.5 * (x0 + c / x0);
+            if (Math.abs(x0 - xi) < 1E-7){
+                break;
+            }
+            x0 = xi;
+        }
+        return (int) x0;
     }
 }
