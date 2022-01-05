@@ -36,4 +36,29 @@ public class RemoveNthNodeFromEndOfList {
 
         return ans.next;
     }
+
+    /**
+     * 2.双指针
+     *
+     * 时间复杂度：O(L)，其中 L 是链表的长度。
+     * 空间复杂度：O(1)。
+     */
+    public ListNode removeNthFromEnd(ListNode head, int n){
+        ListNode ans = new ListNode(-1, head);
+        ListNode fast = head;
+        ListNode slow = ans;
+
+        //快指针永远要不慢指针快 n 个结点
+        //当快指针到链表尾的时候，慢指针真好指向倒数第 n 个结点的前驱
+        for (int i = 0; i < n; i++) {
+            fast = fast.next;
+        }
+
+        while (fast != null){
+            fast = fast.next;
+            slow = slow.next;
+        }
+        slow.next = slow.next.next;
+        return ans.next;
+    }
 }
