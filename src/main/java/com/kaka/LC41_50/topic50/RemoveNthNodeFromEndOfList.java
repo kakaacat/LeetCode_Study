@@ -2,8 +2,7 @@ package com.kaka.LC41_50.topic50;
 
 import com.kaka.LC1_10.day02.ListNode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @Author : kaka
@@ -59,6 +58,30 @@ public class RemoveNthNodeFromEndOfList {
             slow = slow.next;
         }
         slow.next = slow.next.next;
+        return ans.next;
+    }
+
+    /**
+     * 补充栈的写法
+     *
+     */
+    public ListNode removeNth(ListNode head, int n){
+        ListNode ans = new ListNode(-1, head);
+        Deque<ListNode> stack = new LinkedList<ListNode>();
+
+        ListNode h = ans;
+        while (h != null){
+            stack.push(h);
+            h = h.next;
+        }
+        //出栈也是要花费时间的，不如数组可以直接找到
+        for (int i = 0; i < n; i++) {
+            stack.pop();
+        }
+
+        ListNode prev = stack.pop();
+        prev.next = prev.next.next;
+
         return ans.next;
     }
 }
