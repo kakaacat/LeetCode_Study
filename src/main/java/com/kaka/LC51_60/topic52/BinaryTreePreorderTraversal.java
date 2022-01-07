@@ -2,8 +2,7 @@ package com.kaka.LC51_60.topic52;
 
 import com.kaka.LC21_30.topic27.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @Author : kaka
@@ -17,7 +16,7 @@ import java.util.List;
  */
 public class BinaryTreePreorderTraversal {
     /**
-     * 递归
+     * 递归（dfs）
      */
 
     List<Integer> res = new ArrayList<Integer>();
@@ -34,5 +33,30 @@ public class BinaryTreePreorderTraversal {
         res.add(root.val);
         preorder(root.left);
         preorder(root.right);
+    }
+
+    /**
+     * 迭代
+     */
+    public List<Integer> preorderTraversal2(TreeNode root){
+        List<Integer> res = new ArrayList<>();
+        if (root == null){
+            return res;
+        }
+
+        Deque<TreeNode> stack = new LinkedList<>();
+        stack.push(root);
+        while (!stack.isEmpty()){
+            TreeNode node = stack.pop();
+            res.add(node.val);
+
+            if (node.right != null){
+                stack.push(node.right);
+            }
+            if (node.left != null){
+                stack.push(node.left);
+            }
+        }
+        return res;
     }
 }
