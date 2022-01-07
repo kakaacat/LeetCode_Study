@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC51_60/topic51/RemoveDuplicatesFromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC51_60/topic51/RemoveDuplicatesFromSortedListII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,14 +175,8 @@
       <workItem from="1641186327332" duration="2069000" />
       <workItem from="1641264324307" duration="2350000" />
       <workItem from="1641368403094" duration="2983000" />
-      <workItem from="1641451635678" duration="3608000" />
-    </task>
-    <task id="LOCAL-00020" summary="LeetCode_Study topic16(第K大的数)">
-      <created>1638428642644</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1638428642644</updated>
+      <workItem from="1641451635678" duration="3652000" />
+      <workItem from="1641527327429" duration="908000" />
     </task>
     <task id="LOCAL-00021" summary="LeetCode_Study topic17(K 个一组翻转链表)">
       <created>1638498072177</created>
@@ -521,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641371973556</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="LeetCode_Study topic51(82. 删除排序链表中的重复元素 II)">
+      <created>1641461934551</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1641461934551</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TodoView">
@@ -563,7 +563,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study topic36(合并K的有序列表1+2+3)" />
     <MESSAGE value="LeetCode_Study topic37(螺旋数组)" />
     <MESSAGE value="LeetCode_Study topic37(螺旋数组1+2)" />
     <MESSAGE value="LeetCode_Study topic38(二分查找)" />
@@ -588,7 +587,8 @@
     <MESSAGE value="LeetCode_Study topic50(19.删除列表中倒数第n个结点)" />
     <MESSAGE value="LeetCode_Study topic50(19.删除列表中倒数第n个结点1+2)" />
     <MESSAGE value="LeetCode_Study topic51()" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic51()" />
+    <MESSAGE value="LeetCode_Study topic51(82. 删除排序链表中的重复元素 II)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic51(82. 删除排序链表中的重复元素 II)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1639660868095">
@@ -611,10 +611,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1640143612914" />
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1641371973040">
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1641461933848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1641371973040" />
+    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1641461933848" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
