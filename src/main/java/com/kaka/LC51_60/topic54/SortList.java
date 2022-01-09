@@ -69,4 +69,53 @@ public class SortList {
 
         return prev.next;
     }
+
+    /**
+     * 自底向上归并排序
+     *
+     * 时间复杂度：O(nlogn)，其中 n 是链表的长度。
+     * 空间复杂度：O(1)。
+     */
+    public ListNode sortList2(ListNode head){
+        if (head == null){
+            return head;
+        }
+
+        int len = 0;
+        ListNode h = head;
+        while (h != null){
+            len++;
+            h = h.next;
+        }
+
+        ListNode dummyHead = new ListNode(0, head);
+        for (int subLength = 1; subLength < len; subLength <<= 1) {
+            ListNode prev = dummyHead, curr = dummyHead.next;
+            while (curr != null){
+                //子链表尾
+                ListNode head1 = curr;
+                for (int i = 1; i < subLength && curr.next != null; i++) {
+                    curr = curr.next;
+                }
+                ListNode head2 = curr.next;
+                curr.next = null;
+                curr = head2;
+                for (int i = 1; i < subLength && curr != null && curr.next != null; i++) {
+                    curr = curr.next;
+                }
+                ListNode next = null;
+                if (curr != null) {
+                    next = curr.next;
+                    curr.next = null;
+                }
+                ListNode merged = merge(head1, head2);
+                prev.next = merged;
+                while (prev.next != null) {
+                    prev = prev.next;
+                }
+                curr = next;
+            }
+        }
+        return dummyHead.next;
+    }
 }
