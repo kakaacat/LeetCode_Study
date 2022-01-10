@@ -2,7 +2,9 @@ package com.kaka.LC51_60.topic55;
 
 import com.kaka.LC21_30.topic27.TreeNode;
 
+import java.util.Deque;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
 
 /**
@@ -59,5 +61,41 @@ public class ConstructBinaryTree {
         return root;
     }
 
+    /**
+     * 迭代
+     *
+     * 时间复杂度：O(n)，其中 n 是树中的节点个数。
+     *
+     * 空间复杂度：O(n)，除去返回的答案需要的 O(n) 空间之外，
+     * 我们还需要使用 O(h)（其中 h 是树的高度）的空间存储栈。
+     * 这里 h < n 所以（在最坏情况下）总空间复杂度为 O(n)。
+     */
+    public TreeNode buildTree2(int[] preorder, int[] inorder){
+        if (preorder == null || preorder.length == 0){
+            return null;
+        }
 
+        TreeNode root = new TreeNode(preorder[0]);
+        Deque<TreeNode> stack = new LinkedList<>();
+        stack.push(root);
+        int inorderIndex = 0;
+        for (int i = 1; i < preorder.length; i++) {
+            int preorderVal = preorder[i];
+            TreeNode node = stack.peek();
+            //左节点
+            if (node.val != inorder[inorderIndex]){
+                node.left = new TreeNode(preorderVal);
+                stack.push(node.left);
+            } else {
+                //找到右节点
+                while (!stack.isEmpty() && stack.peek().val == inorder[inorderIndex]){
+                    node = stack.pop();
+                    inorderIndex++;
+                }
+                node.right = new TreeNode(preorderVal);
+                stack.push(node.right);
+            }
+        }
+        return root;
+    }
 }
