@@ -10,11 +10,11 @@ public class TreeNode {
     public com.kaka.LC21_30.topic27.TreeNode left;
     public com.kaka.LC21_30.topic27.TreeNode right;
 
-    TreeNode(){}
-    TreeNode(int val){
+    public TreeNode(){}
+    public TreeNode(int val){
         this.val = val;
     }
-    TreeNode(int val, com.kaka.LC21_30.topic27.TreeNode left, com.kaka.LC21_30.topic27.TreeNode right){
+    public TreeNode(int val, com.kaka.LC21_30.topic27.TreeNode left, com.kaka.LC21_30.topic27.TreeNode right){
         this.val = val;
         this.left = left;
         this.right = right;
