@@ -60,4 +60,38 @@ public class ReverseWordInString {
         }
         return res.substring(0, res.length() - 1).toString();
     }
+    /**
+     * 双端队列（栈）
+     */
+    public String reverseWords3(String s) {
+        int left = 0, right = s.length() - 1;
+        // 去掉字符串开头的空白字符
+        while (left <= right && s.charAt(left) == ' ') {
+            ++left;
+        }
+
+        // 去掉字符串末尾的空白字符
+        while (left <= right && s.charAt(right) == ' ') {
+            --right;
+        }
+
+        Deque<String> stack = new ArrayDeque<String>();
+        StringBuilder word = new StringBuilder();
+
+        while (left <= right) {
+            char c = s.charAt(left);
+            if ((word.length() != 0) && (c == ' ')) {
+                stack.push(word.toString());
+                //stack.offerFirst(word.toString());
+                word.setLength(0);
+            } else if (c != ' ') {
+                word.append(c);
+            }
+            ++left;
+        }
+        stack.push(word.toString());
+        //stack.offerFirst(word.toString());
+
+        return String.join(" ", stack);
+    }
 }
