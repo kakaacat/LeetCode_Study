@@ -32,4 +32,32 @@ public class ReverseWordInString {
         Collections.reverse(wordList);
         return String.join(" ", wordList);
     }
+
+    /**
+     *
+     */
+    public String reverseWords2(String s) {
+        // 存放结果
+        StringBuilder res = new StringBuilder();
+        // 定义两个指针，并指向尾部
+        int left = s.length() - 1;
+        int right = s.length() - 1;
+        while (left >= 0) {
+            // 排除尾部是空格的情况，并将两指针挪动到非空格字母上
+            while (left >= 0 && s.charAt(left) == ' ') {
+                left--;
+            }
+            right = left;
+            if (right < 0) {
+                break;
+            }
+            // 当left指针所指不为空格时，一直挪动到为空格为止
+            while (left >= 0 && s.charAt(left) != ' ') {
+                left--;
+            }
+            res.append(s.substring(left + 1, right + 1));
+            res.append(" ");
+        }
+        return res.substring(0, res.length() - 1).toString();
+    }
 }
