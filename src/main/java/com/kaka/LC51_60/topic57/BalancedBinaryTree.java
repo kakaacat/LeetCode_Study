@@ -16,6 +16,7 @@ import com.kaka.LC21_30.topic27.TreeNode;
  */
 public class BalancedBinaryTree {
     public boolean isBalanced(TreeNode root){
+        System.out.println();
         return true;
     }
 }

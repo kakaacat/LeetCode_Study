@@ -4,9 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,14 +179,7 @@
       <workItem from="1641697357953" duration="4193000" />
       <workItem from="1641799343058" duration="2982000" />
       <workItem from="1641884137069" duration="2309000" />
-      <workItem from="1641978877890" duration="1749000" />
-    </task>
-    <task id="LOCAL-00031" summary="LeetCode_Study topic26(相交链表)">
-      <created>1639308623748</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1639308623748</updated>
+      <workItem from="1641978877890" duration="1796000" />
     </task>
     <task id="LOCAL-00032" summary="LeetCode_Study topic27(二叉树锯齿形层序遍历)">
       <created>1639365054403</created>
@@ -526,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641887275060</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="LeetCode_Study topic57(110.平衡二叉树)">
+      <created>1641986804109</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1641986804110</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TodoView">
@@ -568,7 +566,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study topic42(使用栈实现队列)" />
     <MESSAGE value="LeetCode_Study topic43(二叉树的右视图)" />
     <MESSAGE value="LeetCode_Study topic43(二叉树的右视图1+2)" />
     <MESSAGE value="LeetCode_Study topic44(爬楼梯)" />
@@ -593,7 +590,8 @@
     <MESSAGE value="LeetCode_Study topic56(151. 翻转字符串里的单词)" />
     <MESSAGE value="LeetCode_Study topic56(151. 翻转字符串里的单词1+2)" />
     <MESSAGE value="LeetCode_Study topic56(151. 翻转字符串里的单词1+2+3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic56(151. 翻转字符串里的单词1+2+3)" />
+    <MESSAGE value="LeetCode_Study topic57(110.平衡二叉树)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic57(110.平衡二叉树)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1641980374560">
@@ -616,12 +614,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1640143612914" />
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2" timestamp="1641887274462">
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1641986803353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
-    <state x="576" y="113" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1641887274462" />
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1641986803353" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
