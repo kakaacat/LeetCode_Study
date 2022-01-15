@@ -15,6 +15,13 @@ import com.kaka.LC21_30.topic27.TreeNode;
  * https://leetcode-cn.com/problems/balanced-binary-tree/
  */
 public class BalancedBinaryTree {
+    /**
+     * 自底向上的递归
+     *
+     * 时间复杂度：O(n)，其中 n 是二叉树中的节点个数。使用自底向上的递归，每个节点的计算高度和判断是否平衡都只需要处理一次，
+     * 最坏情况下需要遍历二叉树中的所有节点，因此时间复杂度是 O(n)。
+     * 空间复杂度：O(n)，其中 n 是二叉树中的节点个数。空间复杂度主要取决于递归调用的层数，递归调用的层数不会超过 n。
+     */
     public boolean isBalanced(TreeNode root){
         return height(root) >= 0;
     }
