@@ -187,14 +187,8 @@
       <workItem from="1642219581227" duration="863000" />
       <workItem from="1642335290991" duration="1072000" />
       <workItem from="1642336382420" duration="17000" />
-      <workItem from="1642406652675" duration="1599000" />
-    </task>
-    <task id="LOCAL-00037" summary="LeetCode_Study topic32(反转链表2)">
-      <created>1639820134176</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1639820134177</updated>
+      <workItem from="1642406652675" duration="1774000" />
+      <workItem from="1642511093734" duration="97000" />
     </task>
     <task id="LOCAL-00038" summary="LeetCode_Study topic33(全排列)">
       <created>1639905353334</created>
@@ -532,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642336311478</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="LeetCode_Study topic59(76. 最小覆盖子串)">
+      <created>1642409005049</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1642409005050</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TodoView">
@@ -574,7 +575,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study topic44(爬楼梯)" />
     <MESSAGE value="LeetCode_Study topic45(重排链表)" />
     <MESSAGE value="LeetCode_Study topic45(重排链表1+2)" />
     <MESSAGE value="LeetCode_Study topic46(倒数第K个链表)" />
@@ -599,7 +599,8 @@
     <MESSAGE value="LeetCode_Study topic57(110.平衡二叉树)" />
     <MESSAGE value="LeetCode_Study topic58(104. 二叉树的最大深度)" />
     <MESSAGE value="LeetCode_Study topic58(104. 二叉树的最大深度1+2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic58(104. 二叉树的最大深度1+2)" />
+    <MESSAGE value="LeetCode_Study topic59(76. 最小覆盖子串)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic59(76. 最小覆盖子串)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1641980374560">
@@ -622,12 +623,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1640143612914" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1642336310924">
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1642409004401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1642336310924" />
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1642409004401" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
