@@ -15,5 +15,7 @@ package com.kaka.LC61_70.topic61;
  * 链接：https://leetcode-cn.com/problems/longest-common-subsequence
  */
 public class LongestCommonSubsequence {
+    public int longestCommonSubsequence(String text1, String text2){
 
+    }
 }
