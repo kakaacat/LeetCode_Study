@@ -17,6 +17,11 @@ package com.kaka.LC61_70.topic61;
 public class LongestCommonSubsequence {
     /**
      * 动态规划
+     *
+     * 时间复杂度：O(mn)，其中 m 和 n 分别是字符串 text1和 text2的长度。二
+     * 维数组 dp 有 m+1 行和 n+1 列，需要对 dp 中的每个元素进行计算。
+     * 空间复杂度：O(mn)，其中 m 和 n 分别是字符串 text1和 text2的长度。
+     * 创建了 m+1 行 n+1 列的二维数组 dp。
      */
     public int longestCommonSubsequence(String text1, String text2){
         int m = text1.length(), n = text2.length();
