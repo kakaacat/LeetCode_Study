@@ -1,5 +1,8 @@
 package com.kaka.LC61_70.topic62;
 
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 
 /**
@@ -16,8 +19,39 @@ import java.util.List;
  * 链接：https://leetcode-cn.com/problems/restore-ip-addresses
  */
 public class RestoreIPAddresses {
+    /**
+     * 回溯剪枝
+     * @param s
+     * @return
+     */
     public List<String> restoreIPAddresses(String s){
         int len = s.length();
+        List<String> res = new ArrayList<>();
+        if (len > 12 || len < 4){
+            return res;
+        }
+        Deque<String> path = new ArrayDeque<>(4);
+        dfs(s, len, 0, 4, path, res);
+        return res;
+    }
+
+    private void dfs(String s, int len, int begin, int residue, Deque<String> path, List<String> res) {
+        if (begin == len && residue == 0){
+            res.add(String.join(".", path));
+            return;
+        }
+
+        for (int i = begin; i < begin + 3; i++) {
+            if (i >= len){
+                break;
+            }
+            //如果剩余元素大于ip最多能容纳的个数，就剪枝。
+            if (residue * 3 < len - 1){
+                continue;
+            }
+
+
+        }
 
     }
 }
