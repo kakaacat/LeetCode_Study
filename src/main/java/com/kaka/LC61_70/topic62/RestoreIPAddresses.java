@@ -17,7 +17,7 @@ import java.util.List;
  */
 public class RestoreIPAddresses {
     public List<String> restoreIPAddresses(String s){
-
+        int len = s.length();
 
     }
 }
