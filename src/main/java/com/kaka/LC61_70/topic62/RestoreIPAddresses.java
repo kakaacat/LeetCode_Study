@@ -50,8 +50,27 @@ public class RestoreIPAddresses {
                 continue;
             }
 
+            if (judgeIPSegment(s, begin, i)){
+                String curIPsegment = s.substring(begin, i + 1);
+                path.addLast(curIPsegment);
 
+                dfs(s, len, i + 1, residue - 1, path, res);
+                //回溯
+                path.removeLast();
+            }
         }
+    }
 
+    private boolean judgeIPSegment(String s, int left, int right) {
+        int len = right - left + 1;
+        if (len > 1 && s.charAt(left) == '0'){
+            return false;
+        }
+        int res = 0;
+        while (left <= right){
+            res = res * 10 + s.charAt(left) - '0';
+            left++;
+        }
+        return res >= 0 && res <= 255;
     }
 }
