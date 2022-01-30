@@ -2,6 +2,9 @@ package com.kaka.LC61_70.topic63;
 
 import com.kaka.LC21_30.topic27.TreeNode;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * @Author : kaka
  * @Date: 2022-01-30 20:08
@@ -39,5 +42,38 @@ public class SumRootToLeftNum {
         } else {
             return dfs(root.left, sum) + dfs(root.right, sum);
         }
+    }
+
+    /**
+     * bfs
+     */
+    public int sumNums(TreeNode root){
+        if (root == null){
+            return 0;
+        }
+        int sum = 0;
+        Deque<TreeNode> nodeQueue = new LinkedList<TreeNode>();
+        Deque<Integer> numQueue = new LinkedList<Integer>();
+        nodeQueue.offer(root);
+        numQueue.offer(root.val);
+
+        while (!nodeQueue.isEmpty()){
+            TreeNode node = nodeQueue.poll();
+            int num = numQueue.poll();
+            if (node.left == null && node.right == null){
+                sum += num;
+            } else {
+                if (node.left != null){
+                    nodeQueue.offer(node.left);
+                    numQueue.offer(num * 10 + node.left.val);
+                }
+                if (node.right != null){
+                    nodeQueue.offer(node.right);
+                    numQueue.offer(num * 10 + node.right.val);
+                }
+            }
+        }
+
+        return sum;
     }
 }
