@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC61_70/topic64/SlidingWindowMaximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,14 +193,7 @@
       <workItem from="1643369141555" duration="455000" />
       <workItem from="1643467572106" duration="2096000" />
       <workItem from="1643544328644" duration="1687000" />
-      <workItem from="1643625376864" duration="2340000" />
-    </task>
-    <task id="LOCAL-00051" summary="LeetCode_Study topic40(二叉树的中序遍历1+2)">
-      <created>1640576429355</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1640576429355</updated>
+      <workItem from="1643625376864" duration="2357000" />
     </task>
     <task id="LOCAL-00052" summary="LeetCode_Study topic40(二叉树的中序遍历1+2+3)">
       <created>1640577880049</created>
@@ -541,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643546005339</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="LeetCode_Study topic60( 239. 滑动窗口最大值)">
+      <created>1643628321102</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1643628321104</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TodoView">
@@ -583,7 +580,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study topic47(合并区间)" />
     <MESSAGE value="LeetCode_Study topic48(二叉树的最大路径和)" />
     <MESSAGE value="LeetCode_Study topic49(x的平方根)" />
     <MESSAGE value="LeetCode_Study topic49(x的平方根1+2)" />
@@ -608,7 +604,8 @@
     <MESSAGE value="LeetCode_Study topic60(1143. 最长公共子序列)" />
     <MESSAGE value="LeetCode_Study topic60(93. 复原 IP 地址)" />
     <MESSAGE value="LeetCode_Study topic60(129. 求根节点到叶节点数字之和)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic60(129. 求根节点到叶节点数字之和)" />
+    <MESSAGE value="LeetCode_Study topic60( 239. 滑动窗口最大值)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic60( 239. 滑动窗口最大值)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1641980374560">
@@ -631,12 +628,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1640143612914" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1643546004671">
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1643628320464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1643546004671" />
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1643628320464" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
