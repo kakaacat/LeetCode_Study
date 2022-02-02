@@ -1,5 +1,9 @@
 package com.kaka.LC61_70.topic65;
 
+import com.kaka.LC21_30.topic27.TreeNode;
+
+import java.util.List;
+
 /**
  * @Author : kaka
  * @Date: 2022-02-01 20:10
@@ -12,4 +16,7 @@ package com.kaka.LC61_70.topic65;
  * 链接：https://leetcode-cn.com/problems/path-sum-ii
  */
 public class PathSumII {
+    public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
+
+    }
 }
