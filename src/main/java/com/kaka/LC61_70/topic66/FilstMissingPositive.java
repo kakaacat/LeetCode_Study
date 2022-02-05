@@ -44,6 +44,9 @@ public class FilstMissingPositive {
 
     /**
      * 置换
+     *
+     * 时间复杂度：O(N)，其中 N 是数组的长度。
+     * 空间复杂度：O(1)。
      */
     public int firstMissingPositive2(int[] nums){
         int n = nums.length;
