@@ -14,9 +14,12 @@ package com.kaka.LC61_70.topic66;
 public class FilstMissingPositive {
     /**
      * 哈希表
+     *
+     * 时间复杂度：O(N)，其中 N 是数组的长度。
+     * 空间复杂度：O(1)。
      */
    public int filstMissingPositive(int[] nums){
-        int n = nums.length;
+       int n = nums.length;
        for (int i = 0; i < n; i++) {
            if (nums[i] <= 0){
                nums[i] = n + 1;
