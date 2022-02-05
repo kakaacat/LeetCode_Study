@@ -38,4 +38,11 @@ public class FilstMissingPositive {
 
        return n + 1;
    }
+
+    /**
+     * 置换
+     */
+    public int firstMissingPositive2(int[] nums){
+
+    }
 }
