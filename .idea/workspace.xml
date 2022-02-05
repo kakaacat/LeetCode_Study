@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC61_70/topic65/PathSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC61_70/topic65/PathSumII.java" afterDir="false" />
-    </list>
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,21 +196,7 @@
       <workItem from="1643625376864" duration="2357000" />
       <workItem from="1643717384700" duration="177000" />
       <workItem from="1643800446638" duration="68000" />
-      <workItem from="1643875521870" duration="304000" />
-    </task>
-    <task id="LOCAL-00054" summary="LeetCode_Study topic43(二叉树的右视图)">
-      <created>1640761550224</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1640761550225</updated>
-    </task>
-    <task id="LOCAL-00055" summary="LeetCode_Study topic43(二叉树的右视图1+2)">
-      <created>1640762544261</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1640762544261</updated>
+      <workItem from="1643875521870" duration="517000" />
     </task>
     <task id="LOCAL-00056" summary="LeetCode_Study topic44(爬楼梯)">
       <created>1640840834916</created>
@@ -544,7 +527,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643800496831</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="LeetCode_Study topic60(113. 路径总和 II)">
+      <created>1643875888409</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1643875888410</updated>
+    </task>
+    <task id="LOCAL-00104" summary="LeetCode_Study topic60(113. 路径总和 II)">
+      <created>1643876029632</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1643876029632</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TodoView">
@@ -634,12 +631,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1640143612914" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1643875887611">
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1643876028905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1643875887611" />
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1643876028905" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
