@@ -199,28 +199,7 @@
       <workItem from="1643717384700" duration="177000" />
       <workItem from="1643800446638" duration="68000" />
       <workItem from="1643875521870" duration="517000" />
-      <workItem from="1644044886430" duration="303000" />
-    </task>
-    <task id="LOCAL-00057" summary="LeetCode_Study topic45(重排链表)">
-      <created>1640950734653</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1640950734654</updated>
-    </task>
-    <task id="LOCAL-00058" summary="LeetCode_Study topic45(重排链表1+2)">
-      <created>1640952592160</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1640952592160</updated>
-    </task>
-    <task id="LOCAL-00059" summary="LeetCode_Study topic46(倒数第K个链表)">
-      <created>1641020966351</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1641020966352</updated>
+      <workItem from="1644044886430" duration="795000" />
     </task>
     <task id="LOCAL-00060" summary="LeetCode_Study topic46(倒数第K个链表1+2)">
       <created>1641021226128</created>
@@ -544,7 +523,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644045029887</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="LeetCode_Study topic60(41. 缺失的第一个正数)">
+      <created>1644045247289</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1644045247290</updated>
+    </task>
+    <task id="LOCAL-00107" summary="LeetCode_Study topic60(41. 缺失的第一个正数)">
+      <created>1644045309537</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1644045309538</updated>
+    </task>
+    <task id="LOCAL-00108" summary="LeetCode_Study topic60(41. 缺失的第一个正数)">
+      <created>1644045365764</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1644045365764</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TodoView">
@@ -634,12 +634,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1640143612914" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1644045309029">
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1644045365189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1644045309029" />
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1644045365189" />
     <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
