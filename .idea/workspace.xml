@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC61_70/topic67/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC61_70/topic67/GenerateParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,14 +200,9 @@
       <workItem from="1643800446638" duration="68000" />
       <workItem from="1643875521870" duration="517000" />
       <workItem from="1644044886430" duration="1091000" />
-      <workItem from="1644119748752" duration="1152000" />
-    </task>
-    <task id="LOCAL-00063" summary="LeetCode_Study topic49(x的平方根)">
-      <created>1641265742156</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1641265742156</updated>
+      <workItem from="1644119748752" duration="1259000" />
+      <workItem from="1644134962569" duration="89000" />
+      <workItem from="1644226615035" duration="728000" />
     </task>
     <task id="LOCAL-00064" summary="LeetCode_Study topic49(x的平方根1+2)">
       <created>1641267878576</created>
@@ -546,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644119989723</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="LeetCode_Study topic60(22. 括号生成)">
+      <created>1644125564020</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1644125564020</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TodoView">
@@ -636,20 +637,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="3" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1640143612914" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1644119989074">
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1644125563481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1644119989074" />
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1644125563481" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1644045979804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1644045979804" />
-    <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1639569042073">
+    <state x="713" y="127" key="FileChooserDialogImpl" timestamp="1644135028190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="713" y="127" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1639569042073" />
+    <state x="713" y="127" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1644135028190" />
     <state width="1493" height="290" key="GridCell.Tab.0.bottom" timestamp="1639569777457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -678,6 +679,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1642821503262" />
+    <state x="178" y="22" key="new project wizard" timestamp="1644135051537">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1644135051537" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1640230389394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
