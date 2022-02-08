@@ -14,7 +14,22 @@ import com.kaka.LC21_30.topic27.TreeNode;
  * https://leetcode-cn.com/problems/diameter-of-binary-tree/
  */
 public class DiameterOfBinatryTree {
+    int ans = 0;
     public int diameterOfBinatryTree(TreeNode root){
+        dfs(root);
+        return ans;
+    }
 
+    private int dfs(TreeNode root) {
+        if (root == null){
+            return 0;
+        }
+
+        int L = dfs(root.left);
+        int R = dfs(root.right);
+
+        ans = Math.max(L + R, ans);
+
+        return Math.max(L, R) + 1;
     }
 }

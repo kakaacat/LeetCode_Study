@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC61_70/topic69/DiameterOfBinatryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC61_70/topic69/DiameterOfBinatryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,14 +203,7 @@
       <workItem from="1644119748752" duration="1259000" />
       <workItem from="1644134962569" duration="89000" />
       <workItem from="1644226615035" duration="814000" />
-      <workItem from="1644314079922" duration="616000" />
-    </task>
-    <task id="LOCAL-00065" summary="LeetCode_Study topic50(19.删除列表中倒数第n个结点)">
-      <created>1641370671934</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1641370671934</updated>
+      <workItem from="1644314079922" duration="917000" />
     </task>
     <task id="LOCAL-00066" summary="LeetCode_Study topic50(19.删除列表中倒数第n个结点1+2)">
       <created>1641371174498</created>
@@ -548,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644227395063</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="LeetCode_Study(543. 二叉树的直径)">
+      <created>1644315194710</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1644315194712</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TodoView">
@@ -590,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode_Study topic50(19.删除列表中倒数第n个结点1+2)" />
     <MESSAGE value="LeetCode_Study topic51()" />
     <MESSAGE value="LeetCode_Study topic51(82. 删除排序链表中的重复元素 II)" />
     <MESSAGE value="LeetCode_Study topic52(144.二叉树的先序遍历)" />
@@ -615,7 +614,8 @@
     <MESSAGE value="LeetCode_Study topic60(41. 缺失的第一个正数)" />
     <MESSAGE value="LeetCode_Study topic60(22. 括号生成)" />
     <MESSAGE value="LeetCode_Study topic60(155. 最小栈)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study topic60(155. 最小栈)" />
+    <MESSAGE value="LeetCode_Study(543. 二叉树的直径)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(543. 二叉树的直径)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="274" key="#Notifications" timestamp="1641980374560">
