@@ -1,5 +1,10 @@
 package com.kaka.LC61_70.topic70;
 
+import com.kaka.LC21_30.topic27.TreeNode;
+
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * @Author : kaka
  * @Date: 2022-02-09 18:51
@@ -17,4 +22,51 @@ package com.kaka.LC61_70.topic70;
  * 链接：https://leetcode-cn.com/problems/validate-binary-search-tree
  */
 public class ValidBTree {
+    /**
+     * 递归
+     *
+     * 时间复杂度 : O(n)
+     * 空间复杂度 : O(n)
+     */
+    public boolean isValidBST(TreeNode root){
+        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+
+    private boolean isValidBST(TreeNode root, long minValue, long maxValue) {
+        if (root == null){
+            return true;
+        }
+
+        if (root.val <= minValue || root.val >= maxValue){
+            return false;
+        }
+
+        return isValidBST(root.left, minValue, root.val) && isValidBST(root.right, root.val, maxValue);
+    }
+
+    /**
+     * 中序遍历
+     *
+     * 时间复杂度 : O(n)
+     * 空间复杂度 : O(n)
+     */
+    public boolean isValidBST2(TreeNode root){
+        Deque<TreeNode> stack = new LinkedList<TreeNode>();
+        double inorder = -Double.MAX_VALUE;
+
+        while (!stack.isEmpty() || root != null){
+            while (root != null){
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if (root.val <= inorder){
+                return false;
+            }
+            inorder = root.val;
+            root = root.right;
+        }
+        return true;
+    }
+
 }
