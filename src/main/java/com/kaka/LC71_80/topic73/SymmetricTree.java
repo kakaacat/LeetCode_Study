@@ -20,7 +20,11 @@ public class SymmetricTree {
      * 空间复杂度为 O(n)
      */
     public boolean isSymmetric(TreeNode root) {
-        return check(root, root);
+        if (root == null){
+            return true;
+        } else {
+            return check(root.left, root.right);
+        }
     }
 
     private boolean check(TreeNode p, TreeNode q) {
