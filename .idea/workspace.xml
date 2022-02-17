@@ -220,14 +220,7 @@
       <workItem from="1644899701150" duration="129000" />
       <workItem from="1644899851926" duration="86000" />
       <workItem from="1644986475619" duration="1332000" />
-      <workItem from="1645078654815" duration="1311000" />
-    </task>
-    <task id="LOCAL-00075" summary="LeetCode_Study topic55(105. 从前序与中序遍历序列构造二叉树)">
-      <created>1641800740998</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1641800740999</updated>
+      <workItem from="1645078654815" duration="1917000" />
     </task>
     <task id="LOCAL-00076" summary="LeetCode_Study topic55(105. 从前序与中序遍历序列构造二叉树1+2)">
       <created>1641802319626</created>
@@ -565,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645079328445</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="LeetCode_Study(101. 对称二叉树)">
+      <created>1645079972313</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1645079972313</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TodoView">
@@ -657,10 +657,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="686" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1645079327662">
+    <state x="686" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1645079971694">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="686" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1645079327662" />
+    <state x="686" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1645079971694" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1644484208118" />
@@ -692,10 +692,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="146" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1638325584401" />
-    <state x="220" y="94" width="996" height="707" key="SettingsEditor" timestamp="1645079259980">
+    <state x="220" y="94" width="996" height="707" key="SettingsEditor" timestamp="1645080250809">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="220" y="94" width="996" height="707" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1645079259980" />
+    <state x="220" y="94" width="996" height="707" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1645080250809" />
     <state x="220" y="95" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1644825822402" />
     <state x="564" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642821503262">
       <screen x="0" y="0" width="1536" height="824" />
