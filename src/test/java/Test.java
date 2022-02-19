@@ -1,4 +1,3 @@
-import com.kaka.LC11_20.topic18.SortAnArray;
 import com.kaka.LC21_30.topic30.AddStrings;
 
 /**
@@ -14,5 +13,14 @@ public class Test {
         String s = addStrings.addStrings(num1, num2);
         System.out.println(s);
 
+    }
+
+    @org.junit.Test
+    public void mtest() {
+        int[] a = new int[5];
+
+        for (int i : a) {
+            System.out.println(i);
+        }
     }
 }

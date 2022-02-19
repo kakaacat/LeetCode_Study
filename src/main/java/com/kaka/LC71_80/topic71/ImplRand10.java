@@ -55,6 +55,7 @@ public class ImplRand10 {
      *  */
 
     private int rand7() {
+        return 0;
     }
     public int rand10(){
         while (true){
