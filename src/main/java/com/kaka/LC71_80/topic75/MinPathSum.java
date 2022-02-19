@@ -1,5 +1,7 @@
 package com.kaka.LC71_80.topic75;
 
+import java.util.Arrays;
+
 /**
  * @Author : kaka
  * @Date: 2022-02-19 16:16
@@ -38,5 +40,25 @@ public class MinPathSum {
         return dp[row - 1][col - 1];
     }
 
+    /**
+     * 空间优化
+     */
+    public int minPathSum1(int[][] grid) {
+        if (grid == null || grid.length == 0 || grid[0].length == 0) {
+            return 0;
+        }
+        int row = grid.length, col = grid[0].length;
+        int[] dp = new int[col];
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        dp[0] = 0;
+
+        for (int i = 0; i < row; i++) {
+            dp[0] = dp[0] + grid[i][0];
+            for (int j = 1; j < col; j++) {
+                dp[j] = Math.min(dp[j - 1], dp[j]) + grid[i][j];
+            }
+        }
+        return dp[col - 1];
+    }
 
 }
