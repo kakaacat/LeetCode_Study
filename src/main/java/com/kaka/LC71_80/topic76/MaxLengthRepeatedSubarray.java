@@ -33,16 +33,16 @@ public class MaxLengthRepeatedSubarray {
      * 滑动窗口
      */
     public int findLength1(int[] nums1, int[] nums2) {
-        int n = A.length, m = B.length;
+        int n = nums1.length, m = nums2.length;
         int ret = 0;
         for (int i = 0; i < n; i++) {
             int len = Math.min(m, n - i);
-            int maxlen = maxLength(A, B, i, 0, len);
+            int maxlen = maxLength(nums1, nums2, i, 0, len);
             ret = Math.max(ret, maxlen);
         }
         for (int i = 0; i < m; i++) {
             int len = Math.min(n, m - i);
-            int maxlen = maxLength(A, B, 0, i, len);
+            int maxlen = maxLength(nums1, nums2, 0, i, len);
             ret = Math.max(ret, maxlen);
         }
         return ret;
