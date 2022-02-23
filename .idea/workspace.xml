@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC71_80/topic79/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC71_80/topic79/PalindromeLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -239,14 +241,7 @@
       <workItem from="1645500513997" duration="828000" />
       <workItem from="1645504235077" duration="20000" />
       <workItem from="1645524758438" duration="7000" />
-      <workItem from="1645591668022" duration="301000" />
-    </task>
-    <task id="LOCAL-00088" summary="LeetCode_Study topic60(31.下一个排列)">
-      <created>1642821509919</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1642821509920</updated>
+      <workItem from="1645591668022" duration="1504000" />
     </task>
     <task id="LOCAL-00089" summary="LeetCode_Study topic60(1143. 最长公共子序列)">
       <created>1642821770136</created>
@@ -584,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645591794484</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="LeetCode_Study(234. 回文链表)">
+      <created>1645592209986</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1645592209986</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TodoView">
@@ -676,10 +678,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="686" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1645591793852">
+    <state x="686" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1645592209363">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="686" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1645591793852" />
+    <state x="686" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1645592209363" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1644484208118" />
