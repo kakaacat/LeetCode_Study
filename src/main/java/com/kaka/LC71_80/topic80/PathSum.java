@@ -2,6 +2,9 @@ package com.kaka.LC71_80.topic80;
 
 import com.kaka.LC21_30.topic27.TreeNode;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * @Author : kaka
  * @Date: 2022-02-24 12:57
@@ -16,7 +19,19 @@ import com.kaka.LC21_30.topic27.TreeNode;
  * 链接：https://leetcode-cn.com/problems/path-sum
  */
 public class PathSum {
+    /**
+     * 递归dfs
+     */
     public boolean hasPathSum(TreeNode root, int targetSum) {
+        if (root == null) {
+            return false;
+        }
+        if (root.left == null && root.right == null) {
+            return root.val == targetSum;
+        }
 
+        return hasPathSum(root.left, targetSum - root.val) || hasPathSum(root.right, targetSum - root.val);
     }
+
+
 }

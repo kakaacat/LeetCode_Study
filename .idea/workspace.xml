@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC71_80/topic80/PathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC71_80/topic79/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC71_80/topic79/PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC71_80/topic80/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC71_80/topic80/PathSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,14 +241,7 @@
       <workItem from="1645504235077" duration="20000" />
       <workItem from="1645524758438" duration="7000" />
       <workItem from="1645591668022" duration="1533000" />
-      <workItem from="1645678591803" duration="301000" />
-    </task>
-    <task id="LOCAL-00090" summary="LeetCode_Study topic60(1143. 最长公共子序列)">
-      <created>1642905429283</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1642905429284</updated>
+      <workItem from="1645678591803" duration="1015000" />
     </task>
     <task id="LOCAL-00091" summary="LeetCode_Study topic60(1143. 最长公共子序列)">
       <created>1642905587366</created>
@@ -587,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645593181552</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="LeetCode_Study(112. 路径总和)">
+      <created>1645678925250</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1645678925252</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TodoView">
@@ -630,7 +629,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="LeetCode_Study topic56(151. 翻转字符串里的单词1+2+3)" />
     <MESSAGE value="LeetCode_Study topic57(110.平衡二叉树)" />
     <MESSAGE value="LeetCode_Study topic58(104. 二叉树的最大深度)" />
     <MESSAGE value="LeetCode_Study topic58(104. 二叉树的最大深度1+2)" />
@@ -655,7 +653,8 @@
     <MESSAGE value="LeetCode_Study(78. 子集)" />
     <MESSAGE value="LeetCode_Study(322. 零钱兑换)" />
     <MESSAGE value="LeetCode_Study(234. 回文链表)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(234. 回文链表)" />
+    <MESSAGE value="LeetCode_Study(112. 路径总和)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(112. 路径总和)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="271" key="#Notifications" timestamp="1645500230688">
@@ -679,13 +678,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="686" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1645593180956">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2" timestamp="1645678924634">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="686" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1645593180956" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
-    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1644484208118" />
+    <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645678924634" />
     <state x="93" y="92" width="1350" height="632" key="DiffContextDialog" timestamp="1645593203508">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
