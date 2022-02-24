@@ -33,5 +33,35 @@ public class PathSum {
         return hasPathSum(root.left, targetSum - root.val) || hasPathSum(root.right, targetSum - root.val);
     }
 
-
+    /**
+     * 广度优先搜索
+     */
+    public boolean hasPathSum1(TreeNode root, int targetSum) {
+        if (root == null) {
+            return false;
+        }
+        Deque<TreeNode> queNode = new LinkedList<TreeNode>();
+        Deque<Integer> queVal = new LinkedList<Integer>();
+        queNode.offer(root);
+        queVal.offer(root.val);
+        while (!queNode.isEmpty()) {
+            TreeNode now = queNode.poll();
+            int temp = queVal.poll();
+            if (now.left == null && now.right == null) {
+                if (temp == targetSum) {
+                    return true;
+                }
+                continue;
+            }
+            if (now.left != null) {
+                queNode.offer(now.left);
+                queVal.offer(temp + now.left.val);
+            }
+            if (now.right != null) {
+                queNode.offer(now.right);
+                queVal.offer(temp + now.right.val);
+            }
+        }
+        return false;
+    }
 }
