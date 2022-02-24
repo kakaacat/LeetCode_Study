@@ -78,7 +78,7 @@ public class PalindromeLinkedList {
     private ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
-        while (curr.next != null) {
+        while (curr != null) {
             ListNode nextTemp = curr.next;
             curr.next = prev;
             prev = curr;
