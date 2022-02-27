@@ -1,6 +1,6 @@
 package com.kaka.LC81_90.topic83;
 
-import java.util.List;
+import java.util.*;
 
 /**
  * @Author : kaka
@@ -20,6 +20,35 @@ public class CombinationSum {
      * 回溯 ＋ 剪枝
      */
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        int len = candidates.length;
+        List<List<Integer>> ans = new ArrayList<>();
+        if (len == 0) {
+            return ans;
+        }
 
+        // 排序是剪枝的前提
+        Arrays.sort(candidates);
+        Deque<Integer> path = new ArrayDeque<>();
+        dfs(candidates, 0, len, target, path, ans);
+        return ans;
+    }
+
+    private void dfs(int[] candidates, int begin, int len, int target, Deque<Integer> path, List<List<Integer>> ans) {
+        // 由于进入更深层的时候，小于 0 的部分被剪枝，因此递归终止条件值只判断等于 0 的情况
+        if (target == 0) {
+            ans.add(new ArrayList<>(path));
+            return;
+        }
+
+        for (int i = begin ; i < len; i++) {
+            // 重点理解这里剪枝，前提是候选数组已经有序，
+            if (target - candidates[i] < 0) {
+                break;
+            }
+
+            path.addLast(candidates[i]);
+            dfs(candidates, i, len, target - candidates[i], path, ans);
+            path.removeLast();
+        }
     }
 }
