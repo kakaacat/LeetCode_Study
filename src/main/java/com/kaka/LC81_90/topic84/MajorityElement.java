@@ -1,6 +1,8 @@
 package com.kaka.LC81_90.topic84;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Author : kaka
@@ -25,5 +27,27 @@ public class MajorityElement {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);
         return nums[nums.length / 2];
+    }
+
+    /**
+     * 哈希表
+     */
+    public int majorityElement2(int[] nums) {
+        int len = nums.length;
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int num : nums) {
+            if (!map.containsKey(num)) {
+                map.put(num, 1);
+            } else {
+                map.put(num, map.get(num) + 1);
+            }
+        }
+
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue() > len / 2) {
+                return entry.getKey();
+            }
+        }
+        return -1;
     }
 }
