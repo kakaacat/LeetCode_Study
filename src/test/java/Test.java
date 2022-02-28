@@ -17,10 +17,10 @@ public class Test {
 
     @org.junit.Test
     public void mtest() {
-        int[] a = new int[5];
-
-        for (int i : a) {
-            System.out.println(i);
-        }
+//        int[] a = new int[5];
+//
+//        for (int i : a) {
+//            System.out.println(i);
+//        }
     }
 }
