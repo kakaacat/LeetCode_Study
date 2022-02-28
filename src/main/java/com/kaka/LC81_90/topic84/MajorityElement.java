@@ -50,4 +50,22 @@ public class MajorityElement {
         }
         return -1;
     }
+
+    /**
+     * 随机化
+     */
+    public int majorityElement3(int[] nums) {
+        while (true) {
+            int rand = (int) (Math.random() * nums.length);
+            int count = 0;
+            for (int num : nums) {
+                if (num == nums[rand]) {
+                    count++;
+                }
+                if (count > nums.length / 2) {
+                    return nums[rand];
+                }
+            }
+        }
+    }
 }
