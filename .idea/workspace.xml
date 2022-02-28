@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC81_90/topic84/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC81_90/topic84/MajorityElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,13 +248,7 @@
       <workItem from="1645930481718" duration="141000" />
       <workItem from="1645930958940" duration="3210000" />
       <workItem from="1645963701324" duration="1709000" />
-    </task>
-    <task id="LOCAL-00100" summary="LeetCode_Study topic60( 239. 滑动窗口最大值)">
-      <created>1643628321102</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1643628321104</updated>
+      <workItem from="1646014234519" duration="572000" />
     </task>
     <task id="LOCAL-00101" summary="LeetCode_Study topic60(113. 路径总和 II)">
       <created>1643717548512</created>
@@ -592,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645948261631</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="LeetCode_Study(169. 多数元素)">
+      <created>1646014311679</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1646014311680</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TodoView">
@@ -635,7 +636,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="LeetCode_Study topic59(76. 最小覆盖子串)" />
     <MESSAGE value="LeetCode_Study topic60(31.下一个排列)" />
     <MESSAGE value="LeetCode_Study topic60(1143. 最长公共子序列)" />
     <MESSAGE value="LeetCode_Study topic60(93. 复原 IP 地址)" />
@@ -660,7 +660,8 @@
     <MESSAGE value="LeetCode_Study(48.旋转图像)" />
     <MESSAGE value="LeetCode_Study(83. 删除排序链表中的重复元素)" />
     <MESSAGE value="LeetCode_Study(39. 组合总和)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(39. 组合总和)" />
+    <MESSAGE value="LeetCode_Study(169. 多数元素)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(169. 多数元素)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="271" key="#Notifications" timestamp="1645500230688">
@@ -684,10 +685,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="686" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1645948261074">
+    <state x="686" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1646014311040">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="686" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1645948261074" />
+    <state x="686" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646014311040" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
