@@ -12,7 +12,6 @@ public class Test {
         AddStrings addStrings = new AddStrings();
         String s = addStrings.addStrings(num1, num2);
         System.out.println(s);
-
     }
 
     @org.junit.Test
