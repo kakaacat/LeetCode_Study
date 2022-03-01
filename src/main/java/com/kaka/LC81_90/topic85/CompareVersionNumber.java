@@ -48,4 +48,28 @@ public class CompareVersionNumber {
         }
         return 0;
     }
+
+    /**
+     * 双指针
+     */
+    public int compareVersion2(String version1, String version2) {
+        int n = version1.length(), m = version2.length();
+        int i = 0, j = 0;
+        while (i < n || j < m) {
+            int x1 = 0, x2 = 0;
+            while (i < n && version1.charAt(i) != '.') {
+                x1 = x1 * 10 + (version1.charAt(i++) - '0');
+            }
+            while (j < m && version2.charAt(j) != '.') {
+                x2 = x2 * 10 + (version2.charAt(j++) - '0');
+            }
+            if (x1 != x2) {
+                return x1 > x2 ? 1 : -1;
+            }
+            //跳过 '.'
+            i++;
+            j++;
+        }
+        return 0;
+    }
 }
