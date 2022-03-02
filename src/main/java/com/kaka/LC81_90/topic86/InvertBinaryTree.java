@@ -2,6 +2,9 @@ package com.kaka.LC81_90.topic86;
 
 import com.kaka.LC21_30.topic27.TreeNode;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * @Author : kaka
  * @Date: 2022-03-02 09:16
@@ -24,6 +27,33 @@ public class InvertBinaryTree {
         TreeNode right = invertTree(root.left);
         root.left = left;
         root.right = right;
+        return root;
+    }
+
+    /**
+     * 迭代
+     */
+    public TreeNode invertTree2(TreeNode root) {
+        if (root == null) {
+            return root;
+        }
+        Deque<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            TreeNode temp = queue.poll();
+            //交换左右节点
+            TreeNode right = temp.right;
+            temp.right = temp.left;
+            temp.left = right;
+            //左节点不为空
+            if (temp.left != null) {
+                queue.offer(temp.left);
+            }
+            //右节点不为空
+            if (temp.right != null) {
+                queue.offer(temp.right);
+            }
+        }
         return root;
     }
 }
