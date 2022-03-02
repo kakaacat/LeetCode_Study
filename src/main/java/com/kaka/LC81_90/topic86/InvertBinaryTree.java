@@ -13,7 +13,17 @@ import com.kaka.LC21_30.topic27.TreeNode;
  * https://leetcode-cn.com/problems/invert-binary-tree/
  */
 public class InvertBinaryTree {
+    /**
+     * 递归
+     */
     public TreeNode invertTree(TreeNode root) {
-
+        if (root == null) {
+            return root;
+        }
+        TreeNode left = invertTree(root.right);
+        TreeNode right = invertTree(root.left);
+        root.left = left;
+        root.right = right;
+        return root;
     }
 }
