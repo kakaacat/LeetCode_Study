@@ -36,5 +36,15 @@ public class UniquePaths {
         return dp[m - 1][n - 1];
     }
 
-
+    /**
+     * 组合数学
+     *
+     */
+    public int uniquePaths2(int m, int n) {
+        long ans = 1;
+        for (int i = n, j = 1; j < m; i++, j++) {
+            ans = ans * i / j;
+        }
+        return (int) ans;
+    }
 }
