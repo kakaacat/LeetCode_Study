@@ -29,16 +29,17 @@ public class SearchRange {
 
     // 第一个大于 target 的数的下标
     private int binarySearch(int[] nums, int target) {
-        int l = 0, r = nums.length -1, ans = nums.length;
+        int l = 0, r = nums.length -1;
         while (l <= r) {
-            int mid = (r + l) >> 1;
+            int mid = (r + l) / 2;
             if (nums[mid] > target) {
                 r = mid -1;
-                ans = mid;
-            } else {
+            } else if (nums[mid] < target){
                 l = mid + 1;
+            } else {
+                return mid;
             }
         }
-        return ans;
+        return -1;  // 没有找到
     }
 }
