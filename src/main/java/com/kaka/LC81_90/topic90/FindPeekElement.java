@@ -14,4 +14,20 @@ package com.kaka.LC81_90.topic90;
  * 链接：https://leetcode-cn.com/problems/find-peak-element
  */
 public class FindPeekElement {
+    /**
+     * 寻找最大值
+     *
+     * 时间复杂度：O(n)，其中 n 是数组 nums 的长度。
+     * 空间复杂度：O(1)。
+     */
+    public int findPeekelement(int[] nums) {
+        int idx = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > nums[idx]) {
+                idx = i;
+            }
+        }
+        return idx;
+    }
+
 }
