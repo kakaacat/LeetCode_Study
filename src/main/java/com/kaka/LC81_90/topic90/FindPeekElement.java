@@ -29,5 +29,22 @@ public class FindPeekElement {
         }
         return idx;
     }
-
+    /**
+     * 二分查找之爬坡法
+     *
+     * 时间复杂度：O(logn)，其中 n 是数组 nums 的长度.
+     * 空间复杂度：O(1)。
+     */
+    public int findPeekElement2(int[] nums) {
+        int l = 0, r = nums.length - 1;
+        while (l < r) {
+            int mid = (l + r) / 2;
+            if (nums[mid] < nums[mid + 1]) {
+                l = mid + 1;
+            } else {
+                r = mid;
+            }
+        }
+        return r;
+    }
 }
