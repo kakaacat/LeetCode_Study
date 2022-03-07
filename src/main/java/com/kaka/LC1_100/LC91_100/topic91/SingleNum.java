@@ -46,5 +46,35 @@ public class SingleNum {
         return ans;
     }
 
+    /**
+     * 先排序在遍历
+     * 112233445
+     */
+    public int singleNum2(int[] nums) {
+        int ans = nums[0], len = nums.length;
+        if (len == 1) {
+            return ans;
+        }
 
+        Arrays.sort(nums);
+
+        for (int i = 0; i < len; i++) {
+            //异值在第一个位置
+            if (i == 0 && nums[i] != nums[i + 1]) {
+                return  nums[i];
+            }
+            //异值在最后位置
+            if (i == len - 1 && nums[i] != nums[i - 1]) {
+                return nums[i];
+            }
+            //异值在中间位置
+           if (nums[i] == nums[i + 1]) {
+                i ++;
+            } else {
+               return nums[i];
+           }
+
+        }
+        return ans;
+    }
 }
