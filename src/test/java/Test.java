@@ -1,4 +1,4 @@
-import com.kaka.LC21_30.topic30.AddStrings;
+import com.kaka.LC1_100.LC21_30.topic30.AddStrings;
 
 /**
  * @Author : kaka
