@@ -680,14 +680,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1641112252360" />
+    <state x="401" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1646619081686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="401" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1646619081686" />
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1644483378562">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="513" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1646556627385">
+    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1646619327561">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="513" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646556627385" />
+    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646619327561" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
@@ -725,10 +729,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="146" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1638325584401" />
-    <state x="220" y="94" width="996" height="707" key="SettingsEditor" timestamp="1645500665291">
+    <state x="220" y="94" width="996" height="707" key="SettingsEditor" timestamp="1646619175899">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="220" y="94" width="996" height="707" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1645500665291" />
+    <state x="220" y="94" width="996" height="707" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1646619175899" />
     <state x="220" y="95" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1644825822402" />
     <state x="564" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645756651368">
       <screen x="0" y="0" width="1536" height="816" />
