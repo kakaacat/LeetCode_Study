@@ -19,6 +19,9 @@ import java.util.Iterator;
 public class SingleNum {
     /**
      * 位运算
+     *
+     * 时间复杂度：O(n)，其中 n 是数组长度。只需要对数组遍历一次。
+     * 空间复杂度：O(1)。
      */
     public int singleNumber(int[] nums) {
         int single = 0;
