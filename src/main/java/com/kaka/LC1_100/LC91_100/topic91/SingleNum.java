@@ -1,5 +1,9 @@
 package com.kaka.LC1_100.LC91_100.topic91;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Iterator;
+
 /**
  * @Author : kaka
  * @Date: 2022-03-07 10:13
@@ -23,4 +27,24 @@ public class SingleNum {
         }
         return single;
     }
+
+    /**
+     * hashset
+     */
+    public int singleNum(int[] nums) {
+        int ans = 0;
+        HashSet<Integer> hashSet = new HashSet<>();
+        for (int num : nums) {
+            if (!hashSet.add(num)) {
+                hashSet.remove(num);
+            }
+        }
+        Iterator it = hashSet.iterator();
+        while (it.hasNext()) {
+            ans = (int) it.next();
+        }
+        return ans;
+    }
+
+
 }
