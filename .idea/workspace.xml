@@ -60,7 +60,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
   </component>
   <component name="RunManager" selected="JUnit.Test.mtest">
     <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -255,13 +255,7 @@
       <workItem from="1646359525253" duration="2803000" />
       <workItem from="1646447509297" duration="2733000" />
       <workItem from="1646554501256" duration="1908000" />
-    </task>
-    <task id="LOCAL-00121" summary="LeetCode_Study(43. 字符串相乘)">
-      <created>1644986771319</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1644986771320</updated>
+      <workItem from="1646619006100" duration="307000" />
     </task>
     <task id="LOCAL-00122" summary="LeetCode_Study(43. 字符串相乘)">
       <created>1644989133049</created>
@@ -599,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646556627897</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="LeetCode_Study(包结构优化)">
+      <created>1646619318796</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1646619318797</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TodoView">
@@ -642,7 +643,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="LeetCode_Study topic60(22. 括号生成)" />
     <MESSAGE value="LeetCode_Study topic60(155. 最小栈)" />
     <MESSAGE value="LeetCode_Study(543. 二叉树的直径)" />
     <MESSAGE value="LeetCode_Study(98. 验证二叉搜索树)" />
@@ -667,7 +667,8 @@
     <MESSAGE value="LeetCode_Study(153. 寻找旋转排序数组中的最小值)" />
     <MESSAGE value="LeetCode_Study(34. 在排序数组中查找元素的第一个和最后一个位置 【优化代码】)" />
     <MESSAGE value="LeetCode_Study(162. 寻找峰值)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(162. 寻找峰值)" />
+    <MESSAGE value="LeetCode_Study(包结构优化)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(包结构优化)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="271" key="#Notifications" timestamp="1645500230688">
