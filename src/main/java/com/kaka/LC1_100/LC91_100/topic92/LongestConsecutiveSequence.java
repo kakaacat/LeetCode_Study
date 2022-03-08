@@ -1,5 +1,7 @@
 package com.kaka.LC1_100.LC91_100.topic92;
 
+import java.util.HashSet;
+
 /**
  * @Author : kaka
  * @Date: 2022-03-08 09:24
@@ -13,9 +15,27 @@ package com.kaka.LC1_100.LC91_100.topic92;
  */
 public class LongestConsecutiveSequence {
     /**
-     * hashMap
+     * hashset
      */
     public int longestConsecutiveSequence(int[] nums) {
+        HashSet<Integer> numSet = new HashSet<>();
+        for (int num : nums) {
+            numSet.add(num);
+        }
 
+        int longestSequence = 0;
+        for (int num : numSet) {
+            if (!numSet.contains(num - 1)) {
+                int currNum = num;
+                int currSequence = 1;
+
+                while (numSet.contains(currNum + 1)) {
+                    currNum += 1;
+                    currSequence += 1;
+                }
+                longestSequence = Math.max(longestSequence, currSequence);
+            }
+        }
+        return longestSequence;
     }
 }
