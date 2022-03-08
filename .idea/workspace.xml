@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic91/SingleNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic91/SingleNum.java" afterDir="false" />
-    </list>
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,28 +255,7 @@
       <workItem from="1646359525253" duration="2803000" />
       <workItem from="1646447509297" duration="2733000" />
       <workItem from="1646554501256" duration="1908000" />
-      <workItem from="1646619006100" duration="2626000" />
-    </task>
-    <task id="LOCAL-00124" summary="LeetCode_Study(101. 对称二叉树)">
-      <created>1645079972313</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1645079972313</updated>
-    </task>
-    <task id="LOCAL-00125" summary="LeetCode_Study(101. 对称二叉树)">
-      <created>1645080582427</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1645080582427</updated>
-    </task>
-    <task id="LOCAL-00126" summary="LeetCode_Study(32. 最长有效括号)">
-      <created>1645161418037</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1645161418038</updated>
+      <workItem from="1646619006100" duration="2943000" />
     </task>
     <task id="LOCAL-00127" summary="LeetCode_Study(32. 最长有效括号)">
       <created>1645166546285</created>
@@ -603,7 +579,28 @@
       <option name="project" value="LOCAL" />
       <updated>1646619530740</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="LeetCode_Study(136. 只出现一次的数字)">
+      <created>1646621909135</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1646621909135</updated>
+    </task>
+    <task id="LOCAL-00174" summary="LeetCode_Study(136. 只出现一次的数字)">
+      <created>1646621916817</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1646621916817</updated>
+    </task>
+    <task id="LOCAL-00175" summary="LeetCode_Study(136. 只出现一次的数字)">
+      <created>1646621947843</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1646621947843</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TodoView">
@@ -691,10 +688,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1646619530192">
+    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1646621947307">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646619530192" />
+    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646621947307" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
@@ -737,10 +734,10 @@
     </state>
     <state x="220" y="94" width="996" height="707" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1646619175899" />
     <state x="220" y="95" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1644825822402" />
-    <state x="564" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645756651368">
+    <state x="564" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646621904490">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="564" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1645756651368" />
+    <state x="564" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1646621904490" />
     <state x="564" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1642821503262" />
     <state width="500" height="337" key="documentation.popup.size" timestamp="1646447782700">
       <screen x="0" y="0" width="1536" height="816" />
