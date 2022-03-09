@@ -32,6 +32,9 @@ public class SearchMatrixII {
 
     /**
      * 每行二分查找
+     *
+     * 时间复杂度：O(mlogn)。
+     * 空间复杂度：O(1)。
      */
     public boolean searchMatrix2(int[][] matrix, int target) {
         for (int[] row : matrix) {
@@ -60,6 +63,9 @@ public class SearchMatrixII {
 
     /**
      * 从右上角z字形查找
+     *
+     * 时间复杂度：O(m+n)。
+     * 空间复杂度：O(1)。
      */
     public boolean searchMatrix3(int[][] matrix, int target) {
         int m = matrix.length, n = matrix[0].length;
