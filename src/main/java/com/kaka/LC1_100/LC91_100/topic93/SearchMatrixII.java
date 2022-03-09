@@ -15,6 +15,9 @@ package com.kaka.LC1_100.LC91_100.topic93;
 public class SearchMatrixII {
     /**
      * 直接搜素
+     *
+     * 时间复杂度：O(mn)。
+     * 空间复杂度：O(1)。
      */
     public boolean searchMatrix(int[][] matrix, int target) {
         for (int[] row : matrix) {
@@ -25,5 +28,33 @@ public class SearchMatrixII {
             }
         }
         return false;
+    }
+
+    /**
+     * 每行二分查找
+     */
+    public boolean searchMatrix2(int[][] matrix, int target) {
+        for (int[] row : matrix) {
+            int index = binarySearch(row, target);
+            if (index >= 0 && index < row.length) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int binarySearch(int[] row, int target) {
+        int l = 0, r = row.length - 1;
+        while (l <= r) {
+            int mid = (l + r) / 2;
+            if (target == row[mid]) {
+                return mid;
+            } else if (target > row[mid]) {
+                l = mid + 1;
+            } else {
+                r = mid - 1;
+            }
+        }
+        return -1;
     }
 }
