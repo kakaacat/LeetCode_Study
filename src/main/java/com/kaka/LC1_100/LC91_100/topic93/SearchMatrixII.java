@@ -13,4 +13,17 @@ package com.kaka.LC1_100.LC91_100.topic93;
  * 链接：https://leetcode-cn.com/problems/search-a-2d-matrix-ii
  */
 public class SearchMatrixII {
+    /**
+     * 直接搜素
+     */
+    public boolean searchMatrix(int[][] matrix, int target) {
+        for (int[] row : matrix) {
+            for (int num : row) {
+                if (num == target) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
