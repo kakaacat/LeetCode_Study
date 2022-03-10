@@ -90,10 +90,10 @@ public class ValidIPAddress {
     private String vaildIPv4(String IP) {
         String[] nums = IP.split("\\.", -1);
         for (String num : nums) {
-            if (num.length() < 1 || num.length() > 3) {
+            if (num.length() == 0 || num.length() > 3) {
                 return "Neither";
             }
-            if (num.charAt(0) == 0 && num.length() != 1) {
+            if (num.charAt(0) == '0' && num.length() != 1) {
                 return "Neither";
             }
             for (char ch : num.toCharArray()) {
