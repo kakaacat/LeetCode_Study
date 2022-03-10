@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic94/ValidIPAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic94/ValidIPAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,14 +261,7 @@
       <workItem from="1646619006100" duration="2943000" />
       <workItem from="1646702597083" duration="1728000" />
       <workItem from="1646788528327" duration="1645000" />
-      <workItem from="1646876698261" duration="351000" />
-    </task>
-    <task id="LOCAL-00135" summary="LeetCode_Study(322. 零钱兑换)">
-      <created>1645501321878</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1645501321881</updated>
+      <workItem from="1646876698261" duration="1321000" />
     </task>
     <task id="LOCAL-00136" summary="LeetCode_Study(234. 回文链表)">
       <created>1645591794484</created>
@@ -605,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646876824624</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="LeetCode_Study(468. 验证IP地址)">
+      <created>1646877262818</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1646877262819</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TodoView">
@@ -693,10 +694,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1646876823882">
+    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1646877262263">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646876823882" />
+    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646877262263" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
