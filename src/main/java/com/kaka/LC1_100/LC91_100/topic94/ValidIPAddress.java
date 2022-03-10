@@ -1,5 +1,8 @@
 package com.kaka.LC1_100.LC91_100.topic94;
 
+import java.net.Inet6Address;
+import java.net.InetAddress;
+
 /**
  * @Author : kaka
  * @Date: 2022-03-10 09:45
@@ -23,4 +26,18 @@ package com.kaka.LC1_100.LC91_100.topic94;
  * 链接：https://leetcode-cn.com/problems/validate-ip-address
  */
 public class ValidIPAddress {
+    /**
+     * 自带API
+     */
+    public String vaildIPaddress(String IP) {
+        try {
+            return (InetAddress.getByName(IP) instanceof Inet6Address) ? "IPv6" : "IPv4";
+        } catch (Exception e) {}
+
+        return "Neither";
+    }
+
+    /**
+     * 正则表达式
+     */
 }
