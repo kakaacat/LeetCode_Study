@@ -54,4 +54,57 @@ public class ValidIPAddress {
         }
         return "Neither";
     }
+
+    /**
+     * 分治
+     */
+    public String validIPAddress3(String IP) {
+        if (IP.chars().filter(ch -> ch == '.').count() == 3) {
+            return vaildIPv4(IP);
+        } else if (IP.chars().filter(ch -> ch == ':').count() == 7) {
+            return validIPv6(IP);
+        } else {
+            return "Neither";
+        }
+    }
+
+    private String validIPv6(String IP) {
+        String[] nums = IP.split(":", -1);
+        String hexdigits = "0123456789abcdefABCDEF";
+        for (String x : nums) {
+            // Validate hexadecimal in range (0, 2**16):
+            // 1. at least one and not more than 4 hexdigits in one chunk
+            if (x.length() == 0 || x.length() > 4) {
+                return "Neither";
+            }
+            // 2. only hexdigits are allowed: 0-9, a-f, A-F
+            for (Character ch : x.toCharArray()) {
+                if (hexdigits.indexOf(ch) == -1){
+                    return "Neither";
+                }
+            }
+        }
+        return "IPv6";
+    }
+
+    private String vaildIPv4(String IP) {
+        String[] nums = IP.split("\\.", -1);
+        for (String num : nums) {
+            if (num.length() < 1 || num.length() > 3) {
+                return "Neither";
+            }
+            if (num.charAt(0) == 0 && num.length() != 1) {
+                return "Neither";
+            }
+            for (char ch : num.toCharArray()) {
+                if (! Character.isDigit(ch)){
+                    return "Neither";
+                }
+            }
+            if (Integer.parseInt(num) > 255){
+                return "Neither";
+            }
+        }
+        return "IPv4";
+    }
 }
