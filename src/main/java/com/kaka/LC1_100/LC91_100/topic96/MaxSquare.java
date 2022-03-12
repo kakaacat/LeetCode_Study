@@ -11,5 +11,51 @@ package com.kaka.LC1_100.LC91_100.topic96;
  * https://leetcode-cn.com/problems/maximal-square/
  */
 public class MaxSquare {
+    /**
+     * 暴力法
+     */
+    public int maxSquare(char[][] matrix) {
+        int maxSide = 0;
+        int row = matrix.length, col = matrix[0].length;
+        if (matrix == null || row == 0 || col == 0) {
+            return maxSide;
+        }
+
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                // 遇到一个 1 作为正方形的左上角
+                if (matrix[i][j] == '1') {
+                    maxSide = Math.max(maxSide, 1);
+
+                    // 计算可能的最大正方形边长
+                    int currMaxSide = Math.min(row - i, col - j);
+                    for (int k = 1; k < currMaxSide; k++) {
+                        // 判断新增的一行一列是否均为 1
+                        boolean flag = true;
+                        if (matrix[i + k][j + k] == '0') {
+                            break;
+                        }
+                        for (int l = 0; l < k; l++) {
+                            if (matrix[i + k][j + l] == '0' || matrix[i + l][j + k] == '0') {
+                                flag = false;
+                                break;
+                            }
+                        }
+                        if (flag) {
+                            maxSide = Math.max(maxSide, k + 1);
+                        } else {
+                            break;
+                        }
+                    }
+                }
+            }
+
+            if ((row - 1 - i) <= maxSide) {
+                break;
+            }
+        }
+
+        return maxSide * maxSide;
+    }
 
 }
