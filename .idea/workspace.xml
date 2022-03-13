@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic97/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic97/LongestCommonPrefix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -265,14 +264,7 @@
       <workItem from="1646915078403" duration="709000" />
       <workItem from="1646981032258" duration="538000" />
       <workItem from="1647049132840" duration="1919000" />
-      <workItem from="1647169698532" duration="892000" />
-    </task>
-    <task id="LOCAL-00145" summary="LeetCode_Study(83. 删除排序链表中的重复元素)">
-      <created>1645841778069</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1645841778071</updated>
+      <workItem from="1647169698532" duration="1349000" />
     </task>
     <task id="LOCAL-00146" summary="LeetCode_Study(83. 删除排序链表中的重复元素)">
       <created>1645842300556</created>
@@ -610,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647169834264</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="LeetCode_Study(14. 最长公共前缀)">
+      <created>1647170603648</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1647170603648</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TodoView">
@@ -698,17 +697,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1647169833664">
+    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1647170603088">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1647169833664" />
+    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1647170603088" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
-    <state x="93" y="92" width="1350" height="632" key="DiffContextDialog" timestamp="1646015620822">
+    <state x="93" y="92" width="1350" height="632" key="DiffContextDialog" timestamp="1647171048853">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="93" y="92" width="1350" height="632" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1646015620822" />
+    <state x="93" y="92" width="1350" height="632" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1647171048853" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1644045979804" />
     <state x="668" y="124" key="FileChooserDialogImpl" timestamp="1646118233825">
       <screen x="0" y="0" width="1536" height="816" />
