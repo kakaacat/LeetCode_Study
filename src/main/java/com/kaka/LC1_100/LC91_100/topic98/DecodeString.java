@@ -26,7 +26,7 @@ public class DecodeString {
             char cur = s.charAt(ptr);
             if (Character.isDigit(cur)) {
                 // 获取一个数字并进栈
-                String digit = getDigit(s);
+                String digit = getDigits(s);
                 str.addLast(digit);
             } else if (Character.isLetter(cur) || cur == '[') {
                 // 获取一个字母并进栈
