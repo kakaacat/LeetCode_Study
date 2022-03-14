@@ -54,5 +54,22 @@ public class DecodeString {
             }
         }
 
+        return getString(str);
+    }
+
+    public String getDigits(String s) {
+        StringBuffer ret = new StringBuffer();
+        while (Character.isDigit(s.charAt(ptr))) {
+            ret.append(s.charAt(ptr++));
+        }
+        return ret.toString();
+    }
+
+    public String getString(LinkedList<String> v) {
+        StringBuffer ret = new StringBuffer();
+        for (String s : v) {
+            ret.append(s);
+        }
+        return ret.toString();
     }
 }
