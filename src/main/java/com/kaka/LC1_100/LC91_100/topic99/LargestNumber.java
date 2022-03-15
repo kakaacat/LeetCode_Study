@@ -1,5 +1,7 @@
 package com.kaka.LC1_100.LC91_100.topic99;
 
+import java.util.PriorityQueue;
+
 /**
  * @Author : kaka
  * @Date: 2022-03-15 08:54
@@ -13,6 +15,17 @@ package com.kaka.LC1_100.LC91_100.topic99;
  */
 public class LargestNumber {
     public String largestNumber(int[] nums) {
-
+        PriorityQueue<String> heap = new PriorityQueue<>((x, y) -> (y + x).compareTo(x + y));
+        for (int num : nums) {
+            heap.offer(String.valueOf(num));
+        }
+        String res = "";
+        while (heap.size() > 0) {
+            res += heap.poll();
+        }
+        if (res.charAt(0) == '0') {
+            return "0";
+        }
+        return res;
     }
 }
