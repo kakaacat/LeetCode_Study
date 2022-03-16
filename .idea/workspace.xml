@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/tpoic100/SerializeAndDeserialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/tpoic100/SerializeAndDeserialize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,13 +269,7 @@
       <workItem from="1647245151246" duration="746000" />
       <workItem from="1647305571745" duration="948000" />
       <workItem from="1647332691779" duration="62000" />
-    </task>
-    <task id="LOCAL-00152" summary="LeetCode_Study(169. 多数元素)">
-      <created>1646016498651</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1646016498651</updated>
+      <workItem from="1647394351470" duration="1556000" />
     </task>
     <task id="LOCAL-00153" summary="LeetCode_Study(169. 多数元素)">
       <created>1646016907628</created>
@@ -612,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647306504359</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="LeetCode_Study(297. 二叉树的序列化与反序列化)">
+      <created>1647394459465</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1647394459466</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TodoView">
@@ -655,7 +657,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="LeetCode_Study(78. 子集)" />
     <MESSAGE value="LeetCode_Study(322. 零钱兑换)" />
     <MESSAGE value="LeetCode_Study(234. 回文链表)" />
     <MESSAGE value="LeetCode_Study(112. 路径总和)" />
@@ -680,7 +681,8 @@
     <MESSAGE value="LeetCode_Study(14. 最长公共前缀)" />
     <MESSAGE value="LeetCode_Study( 394. 字符串解码)" />
     <MESSAGE value="LeetCode_Study(179. 最大数)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(179. 最大数)" />
+    <MESSAGE value="LeetCode_Study(297. 二叉树的序列化与反序列化)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(297. 二叉树的序列化与反序列化)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="271" key="#Notifications" timestamp="1645500230688">
@@ -700,10 +702,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1647306503784">
+    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1647394458806">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1647306503784" />
+    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1647394458806" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />

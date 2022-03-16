@@ -1,5 +1,11 @@
 package com.kaka.LC1_100.LC91_100.tpoic100;
 
+import com.kaka.LC1_100.LC21_30.topic27.TreeNode;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @Author : kaka
  * @Date: 2022-03-16 09:33
@@ -17,4 +23,40 @@ package com.kaka.LC1_100.LC91_100.tpoic100;
  * 链接：https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree
  */
 public class SerializeAndDeserialize {
+    // Encodes a tree to a single string.
+    public String serialize(TreeNode root) {
+        return rserialize(root, "");
+    }
+
+    private String rserialize(TreeNode root, String str) {
+        if (root == null) {
+            str += "null";
+        } else {
+            str += root.val + ",";
+            str = rserialize(root.left, str);
+            str = rserialize(root.right, str);
+        }
+        return str;
+    }
+
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String data) {
+        String[] dataArray = data.split(",");
+        List<String> dataList = new LinkedList<>(Arrays.asList(dataArray));
+        return rdeserialize(dataList);
+    }
+
+    private TreeNode rdeserialize(List<String> dataList) {
+        if (dataList.get(0).equals("null")) {
+            dataList.remove(0);
+            return null;
+        }
+
+        TreeNode treeNode = new TreeNode(Integer.valueOf(dataList.get(0)));
+        dataList.remove(0);
+        treeNode.left = rdeserialize(dataList);
+        treeNode.right = rdeserialize(dataList);
+
+        return treeNode;
+    }
 }
