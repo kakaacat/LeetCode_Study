@@ -41,4 +41,31 @@ public class CopyListWithRandomPoint {
         }
         return nodeMap.get(head);
     }
+
+    /**
+     * 迭代+节点拆分
+     */
+    public Node copyRandomList2(Node head) {
+        if (head == null) {
+            return null;
+        }
+        for (Node node = head; node != null; node = node.next.next) {
+            Node newNode = new Node(node.val);
+            newNode.next = node.next;
+            node.next = newNode;
+        }
+        for (Node node = head; node != null; node = node.next.next) {
+            Node newNode = node.next;
+            newNode.random = (node.random != null) ? node.random.next : null;
+        }
+
+        Node newHead = head.next;
+        for (Node node = head; node != null; node = node.next) {
+            Node newNode = node.next;
+            node.next = newNode.next;
+            newNode.next = (newNode.next != null) ? newNode.next.next : null;
+        }
+
+        return newHead;
+    }
 }
