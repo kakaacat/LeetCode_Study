@@ -1,5 +1,8 @@
 package com.kaka.LC101_200.LC101_110.topic101;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @Author : kaka
  * @Date: 2022-03-17 09:46
@@ -21,4 +24,21 @@ package com.kaka.LC101_200.LC101_110.topic101;
  * 链接：https://leetcode-cn.com/problems/copy-list-with-random-pointer
  */
 public class CopyListWithRandomPoint {
+    /**
+     * 递归+hashmap
+     */
+    Map<Node, Node> nodeMap = new HashMap<Node, Node>();
+
+    public Node copyRandomList(Node head) {
+        if (head == null) {
+            return null;
+        }
+        if (!nodeMap.containsKey(head)) {
+            Node newNode = new Node(head.val);
+            nodeMap.put(head, newNode);
+            newNode.next = copyRandomList(head.next);
+            newNode.random = copyRandomList(head.random);
+        }
+        return nodeMap.get(head);
+    }
 }
