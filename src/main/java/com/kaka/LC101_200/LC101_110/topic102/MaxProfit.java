@@ -14,5 +14,14 @@ package com.kaka.LC101_200.LC101_110.topic102;
  * 链接：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii
  */
 public class MaxProfit {
-
+    /**
+     * 贪心
+     */
+    public int maxProfit(int[] prices) {
+       int ans = 0;
+        for (int i = 1; i < prices.length; i++) {
+            ans += Math.max(0, prices[i] - prices[i - 1]);
+        }
+        return ans;
+    }
 }
