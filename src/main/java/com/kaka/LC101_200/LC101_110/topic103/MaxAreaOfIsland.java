@@ -15,4 +15,27 @@ package com.kaka.LC101_200.LC101_110.topic103;
  * 链接：https://leetcode-cn.com/problems/max-area-of-island
  */
 public class MaxAreaOfIsland {
+    /**
+     * 深度优先搜素
+     */
+    public int maxAreaOfIsland(int[][] grid) {
+        int ans = 0;
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                ans = Math.max(ans, dfs(grid, i, j));
+            }
+        }
+        return ans;
+    }
+
+    private int dfs(int[][] grid, int curi, int curj) {
+        if (curi < 0 || curj < 0 || curi >= grid.length || curj >= grid[0].length || grid[curi][curj] == 0) {
+            return 0;
+        }
+        grid[curi][curj] = 0;
+        return 1 + dfs(grid, curi - 1, curj)     //上
+                 + dfs(grid, curi + 1, curj)     //下
+                 + dfs(grid, curi, curj - 1)     //左
+                 + dfs(grid, curi, curj + 1);    //右
+    }
 }
