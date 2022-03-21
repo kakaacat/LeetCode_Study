@@ -21,5 +21,6 @@ public class Test {
 //        for (int i : a) {
 //            System.out.println(i);
 //        }
+        System.out.println(0 % 2);
     }
 }
