@@ -4,7 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="" />
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic106/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic106/TreeToDoublyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic106/TreeToDoublyList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,13 +276,7 @@
       <workItem from="1647740863554" duration="852000" />
       <workItem from="1647828064857" duration="1138000" />
       <workItem from="1647912884330" duration="2133000" />
-    </task>
-    <task id="LOCAL-00166" summary="LeetCode_Study(34. 在排序数组中查找元素的第一个和最后一个位置 【优化代码】)">
-      <created>1646450228176</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1646450228176</updated>
+      <workItem from="1647999751258" duration="686000" />
     </task>
     <task id="LOCAL-00167" summary="LeetCode_Study(162. 寻找峰值)">
       <created>1646555403583</created>
@@ -616,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647915282655</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary="LeetCode_Study(剑指 Offer 36. 二叉搜索树与双向链表)">
+      <created>1647999912195</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1647999912196</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TodoView">
@@ -659,7 +664,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="LeetCode_Study(39. 组合总和)" />
     <MESSAGE value="LeetCode_Study(169. 多数元素)" />
     <MESSAGE value="LeetCode_Study(165. 比较版本号)" />
     <MESSAGE value="LeetCode_Study(226. 翻转二叉树)" />
@@ -684,7 +688,8 @@
     <MESSAGE value="LeetCode_Study(695. 岛屿的最大面积)" />
     <MESSAGE value="LeetCode_Study(198. 打家劫舍)" />
     <MESSAGE value="LeetCode_Study(152. 乘积最大子数组)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(152. 乘积最大子数组)" />
+    <MESSAGE value="LeetCode_Study(剑指 Offer 36. 二叉搜索树与双向链表)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(剑指 Offer 36. 二叉搜索树与双向链表)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="271" key="#Notifications" timestamp="1645500230688">
@@ -692,9 +697,10 @@
     </state>
     <state x="651" y="271" key="#Notifications/0.0.1536.816@0.0.1536.816" timestamp="1645500230688" />
     <state x="651" y="274" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1641980374560" />
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1641112252360">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="574" y="112" key="#com.intellij.ide.util.MemberChooser" timestamp="1648000118706">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
+    <state x="574" y="112" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1648000118706" />
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1641112252360" />
     <state x="401" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1646619081686">
       <screen x="0" y="0" width="1536" height="816" />
@@ -704,10 +710,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1647915282028">
+    <state x="492" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1647999911476">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1647915282028" />
+    <state x="492" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1647999911476" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
