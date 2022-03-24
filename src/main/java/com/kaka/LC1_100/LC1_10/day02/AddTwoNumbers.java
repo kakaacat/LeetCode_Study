@@ -63,8 +63,8 @@ public class AddTwoNumbers {
         ListNode res = new ListNode(curVal % 10);
 
         //递归就和
-        ListNode next = sum(l1 == null ? l1 : l1.next, l2 == null ? l2 : l2.next, curVal / 10);
-        res.next = next;
+        ListNode nextNode = sum(l1 == null ? l1 : l1.next, l2 == null ? l2 : l2.next, curVal / 10);
+        res.next = nextNode;
 
         return res;
     }
