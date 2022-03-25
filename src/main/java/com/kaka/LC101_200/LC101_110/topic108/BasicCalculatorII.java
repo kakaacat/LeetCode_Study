@@ -21,6 +21,41 @@ public class BasicCalculatorII {
      * 栈
      */
     public int calculator(String s) {
+        Deque<Integer> stack = new LinkedList<>();
+        char preSign = '+'; //第一个数为正数
+        int num = 0;
+        int len = s.length();
+        //遍历字符串s
+        for (int i = 0; i < len; i++) {
+            //记录数字
+            if (Character.isDigit(s.charAt(i))) {
+                num = num * 10 + (s.charAt(i) - '0');
+            }
+            //遇到符号 || 遍历到字符串的最后一位，数字入栈，并作相应的处理
+            if (!Character.isDigit(s.charAt(i)) && s.charAt(i) != ' ' || i == len - 1) {
+                switch (preSign) {
+                    case '+':
+                        stack.push(num);
+                        break;
+                    case '-':
+                        stack.push(-num);
+                        break;
+                    case '*':
+                        stack.push(stack.pop() * num);
+                        break;
+                    default:
+                        stack.push(stack.pop() / num);
+                }
+                //记录当前的符号
+                preSign = s.charAt(i);
+                num = 0;
+            }
+        }
 
+        int ans = 0;
+        while (!stack.isEmpty()) {
+            ans += stack.pop();
+        }
+        return ans;
     }
 }
