@@ -36,6 +36,10 @@ public class MoveZeroes {
         nums[l] = temp;
     }
 
+    /**
+     * 不交换
+     * @param nums
+     */
     public void moveZeroes2(int[] nums) {
         int index = 0;
         //不是0的往前放
@@ -47,6 +51,20 @@ public class MoveZeroes {
         //后面补0
         for (int i = index; i < nums.length; i++) {
             nums[i] = 0;
+        }
+    }
+
+    /**
+     * 双指针交换
+     */
+    public void moveZeroes3(int[] nums) {
+        int n = nums.length, r = 0, l = 0;
+        while (r < n) {
+            if (nums[r] != 0) {
+                swap(nums, r ,l);
+                l++;
+            }
+            r++;
         }
     }
 }
