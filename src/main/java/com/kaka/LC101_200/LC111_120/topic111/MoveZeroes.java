@@ -35,4 +35,18 @@ public class MoveZeroes {
         nums[r] = nums[l];
         nums[l] = temp;
     }
+
+    public void moveZeroes2(int[] nums) {
+        int index = 0;
+        //不是0的往前放
+        for (int num : nums) {
+            if (num != 0) {
+                nums[index++] = num;
+            }
+        }
+        //后面补0
+        for (int i = index; i < nums.length; i++) {
+            nums[i] = 0;
+        }
+    }
 }

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic111/MoveZeroes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic111/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic111/MoveZeroes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,21 +280,7 @@
       <workItem from="1648191868139" duration="1230000" />
       <workItem from="1648261284068" duration="451000" />
       <workItem from="1648352001388" duration="887000" />
-      <workItem from="1648431732739" duration="717000" />
-    </task>
-    <task id="LOCAL-00177" summary="LeetCode_Study(128. 最长连续序列)">
-      <created>1646704398227</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1646704398227</updated>
-    </task>
-    <task id="LOCAL-00178" summary="LeetCode_Study(240. 搜索二维矩阵 II)">
-      <created>1646789026791</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1646789026792</updated>
+      <workItem from="1648431732739" duration="1289000" />
     </task>
     <task id="LOCAL-00179" summary="LeetCode_Study(240. 搜索二维矩阵 II)">
       <created>1646789164096</created>
@@ -625,7 +611,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648352864248</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary="LeetCode_Study(283. 移动零)">
+      <created>1648432630939</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1648432630939</updated>
+    </task>
+    <task id="LOCAL-00227" summary="LeetCode_Study(283. 移动零)">
+      <created>1648432639331</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1648432639331</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TodoView">
@@ -668,7 +668,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="LeetCode_Study(153. 寻找旋转排序数组中的最小值)" />
     <MESSAGE value="LeetCode_Study(34. 在排序数组中查找元素的第一个和最后一个位置 【优化代码】)" />
     <MESSAGE value="LeetCode_Study(162. 寻找峰值)" />
     <MESSAGE value="LeetCode_Study(包结构优化)" />
@@ -693,7 +692,8 @@
     <MESSAGE value="LeetCode_Study(227. 基本计算器 II)" />
     <MESSAGE value="LeetCode_Study(剑指 Offer 09. 用两个栈实现队列)" />
     <MESSAGE value="LeetCode_Study(958. 二叉树的完全性检验)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(958. 二叉树的完全性检验)" />
+    <MESSAGE value="LeetCode_Study(283. 移动零)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(283. 移动零)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="271" key="#Notifications" timestamp="1645500230688">
@@ -718,10 +718,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="551" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1648352863707">
+    <state x="551" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1648432638747">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="551" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1648352863707" />
+    <state x="551" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1648432638747" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
