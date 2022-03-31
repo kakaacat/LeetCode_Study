@@ -20,7 +20,7 @@ public class RemoveKDigit {
         int len = num.length();
         for (int i = 0; i < len; i++) {
             char digit = num.charAt(i);
-            if (!queue.isEmpty() && k > 0 && queue.peekLast() > digit) {
+            while (!queue.isEmpty() && k > 0 && queue.peekLast() > digit) {
                 queue.pollLast();
                 k--;
             }
