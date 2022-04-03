@@ -54,4 +54,35 @@ public class DiagonalTraversal {
 
         return result;
     }
+
+    /**
+     * 模拟
+     */
+    public int[] findDiagonalOrder2(int[][] mat) {
+        if (mat == null || mat.length == 0) {
+            return new int[0];
+        }
+
+        int m = mat.length, n = mat[0].length;
+        int k = 0;
+        boolean flag = true;
+        int[] result = new int[m * n];
+        for (int i = 0; i < m + n - 1; i++) {
+            int pm = flag ? m : n;
+            int pn = flag ? n : m;
+
+            int x = (i < pm - 1) ? i : pm - 1;
+            int y = i - x;
+
+            while (x >= 0 && y < pn) {
+                result[k++] = flag ? mat[x][y] : mat[y][x];
+                x--;
+                y++;
+            }
+
+            flag = !flag;
+        }
+
+        return result;
+    }
 }
