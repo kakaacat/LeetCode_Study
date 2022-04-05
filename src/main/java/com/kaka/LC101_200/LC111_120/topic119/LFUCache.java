@@ -1,5 +1,6 @@
 package com.kaka.LC101_200.LC111_120.topic119;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -29,5 +30,78 @@ public class LFUCache {
     private Map<Integer, Node> keyTable;
     private Map<Integer, DoublyLinkedList> freqTable;
 
+    public LFUCache(int capacity) {
+        this.minFreq = 0;
+        this.capacity = capacity;
+        keyTable = new HashMap<Integer, Node>();
+        freqTable = new HashMap<Integer, DoublyLinkedList>();
+    }
+
+    public int get(int key) {
+        //判断是否合法
+        if (capacity == 0) {
+            return -1;
+        }
+        if (!keyTable.containsKey(key)) {
+            return -1;
+        }
+        //存在缓存中
+        Node node = keyTable.get(key);
+        int val = node.val, freq = node.freq;
+        freqTable.get(freq).remove(node);
+        // 如果当前链表为空，我们需要在哈希表中删除，且更新minFreq
+        if (freqTable.get(freq).size == 0) {
+            freqTable.remove(freq);
+            if (minFreq == freq) {
+                minFreq += 1;
+            }
+        }
+        // 插入到 freq + 1 中
+        DoublyLinkedList list = freqTable.getOrDefault(freq + 1, new DoublyLinkedList());
+        list.addFirst(new Node(key, val, freq + 1));
+        freqTable.put(freq + 1, list);
+        keyTable.put(key, freqTable.get(freq + 1).getHead());
+        return val;
+    }
+
+    public void put(int key, int value) {
+        if (capacity == 0) {
+            return;
+        }
+        //不存在就插入
+        if (!keyTable.containsKey(key)) {
+            // 缓存已满，需要进行删除操作
+            if (keyTable.size() == capacity) {
+                // 通过 minFreq 拿到 freqTable[minFreq] 链表的末尾节点,并删除
+                Node node = freqTable.get(minFreq).getTail();
+                keyTable.remove(node.key);
+                freqTable.get(minFreq).remove(node);
+                //删除映射
+                if (freqTable.get(minFreq).size == 0) {
+                    freqTable.remove(minFreq);
+                }
+            }
+            //插入新值
+            DoublyLinkedList list = freqTable.getOrDefault(1, new DoublyLinkedList());
+            list.addFirst(new Node(key, value, 1));
+            freqTable.put(1, list);
+            keyTable.put(1, freqTable.get(1).getHead());
+            minFreq = 1;
+        } else {    //存在就更新缓存的值
+            Node node = keyTable.get(key);
+            int freq = node.freq;
+            freqTable.get(freq).remove(node);
+            if (freqTable.get(freq).size == 0) {
+                freqTable.remove(freq);
+                if (minFreq == freq) {
+                    minFreq += 1;
+                }
+            }
+            DoublyLinkedList list = freqTable.getOrDefault(freq + 1, new DoublyLinkedList());
+            list.addFirst(new Node(key, value, freq + 1));
+            freqTable.put(freq + 1, list);
+            keyTable.put(key, freqTable.get(freq + 1).getHead());
+        }
+    }
 
 }
