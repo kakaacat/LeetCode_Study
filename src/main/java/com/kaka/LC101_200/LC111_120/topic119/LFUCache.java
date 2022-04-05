@@ -85,7 +85,7 @@ public class LFUCache {
             DoublyLinkedList list = freqTable.getOrDefault(1, new DoublyLinkedList());
             list.addFirst(new Node(key, value, 1));
             freqTable.put(1, list);
-            keyTable.put(1, freqTable.get(1).getHead());
+            keyTable.put(key, freqTable.get(1).getHead());
             minFreq = 1;
         } else {    //存在就更新缓存的值
             Node node = keyTable.get(key);
