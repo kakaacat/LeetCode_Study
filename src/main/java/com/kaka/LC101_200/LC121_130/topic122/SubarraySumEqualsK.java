@@ -11,5 +11,21 @@ package com.kaka.LC101_200.LC121_130.topic122;
  * https://leetcode-cn.com/problems/subarray-sum-equals-k/
  */
 public class SubarraySumEqualsK {
+    /**
+     * 枚举
+     */
+    public int subarraySum(int[] nums, int k) {
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int sum = 0;
+            for (int j = i; j >=0; j--) {
+                sum += nums[j];
+                if (sum == k) {
+                    count++;
+                }
+            }
+        }
 
+        return count;
+    }
 }
