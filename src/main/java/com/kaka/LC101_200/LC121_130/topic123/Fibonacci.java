@@ -15,5 +15,23 @@ package com.kaka.LC101_200.LC121_130.topic123;
  * 链接：https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof。
  */
 public class Fibonacci {
-
+    /**
+     * 动态规划
+     * @param n
+     * @return
+     */
+    public int fib(int n) {
+        if (n < 2) {
+            return n;
+        }
+        final int MOD = 1000000007;
+        int f0 = 0, f1 = 1;
+        int fn = 0;
+        for (int i = 2; i <= n; i++) {
+            fn = (f1 + f0) % MOD;
+            f0 = f1;
+            f1 = fn;
+        }
+        return fn;
+    }
 }
