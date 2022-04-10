@@ -34,4 +34,45 @@ public class Fibonacci {
         }
         return fn;
     }
+
+    /**
+     * 矩阵快速幂
+     */
+    public int fib2(int n) {
+        if (n < 2) {
+            return n;
+        }
+
+        int[][] q = {{1, 1}, {1, 0}};
+        int[][] res = pow(q, n - 1);
+        return res[0][0];
+    }
+
+    private int[][] pow(int[][] q, int n) {
+        int[][] ret = {{1, 0}, {0, 1}};
+
+        while (n > 0) {
+            //若为奇数，需要多乘一次q
+            if ((n & 1) == 1) {
+                ret = multiply(ret, q);
+            }
+
+            //奇次偶次除后都一样
+            n >>= 1;
+            q = multiply(q, q);
+        }
+
+        return ret;
+    }
+
+    private int[][] multiply(int[][] a, int[][] b) {
+        int[][] c = new int[2][2];
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                c[i][j] = (int) (((long)a[i][0] * b[0][j] + (long) a[i][1] * b[1][j]) % 1000000007);
+            }
+        }
+
+        return c;
+    }
 }
