@@ -37,4 +37,29 @@ public class WordBreak {
         }
         return dp[len];
     }
+    /**
+     * 优化一下，dp[i]只需要往前探索到词典里最长的单词即可
+     */
+    public boolean workBreak2(String s, List<String> wordDict) {
+        int len = s.length(), maxword = 0;
+        Set<String> set = new HashSet<>();
+        for (String word : wordDict) {
+            set.add(word);
+            maxword = Math.max(maxword, word.length());
+        }
+
+        boolean[] dp = new boolean[len + 1];
+        dp[0] = true;
+
+        for (int i = 1; i <= len; i++) {
+            for (int j = i; j >= 0 && j >= i - maxword; j--) {
+                if (dp[j] && set.contains(s.substring(j, i))) {
+                    dp[i] = true;
+                    break;
+                }
+            }
+        }
+
+        return dp[len];
+    }
 }
