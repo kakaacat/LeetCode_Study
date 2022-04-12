@@ -21,8 +21,16 @@ public class ForgJumpSteps {
      * @return
      */
     public int numWays(int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        }
         int f0 = 1, f1 = 1;
         int fn = 0;
-
+        for (int i = 2; i <= n; i++) {
+            fn = (f0 + f1) % 1000000007;
+            f0 = f1;
+            f1 = fn;
+        }
+        return fn;
     }
 }
