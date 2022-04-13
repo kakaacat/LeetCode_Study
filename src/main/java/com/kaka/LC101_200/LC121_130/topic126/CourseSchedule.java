@@ -1,6 +1,8 @@
 package com.kaka.LC101_200.LC121_130.topic126;
 
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -62,5 +64,44 @@ public class CourseSchedule {
             }
         }
         visited[n] = 2;
+    }
+
+    /**
+     * bfs
+     */
+    public boolean canFinish2(int numCourses, int[][] prerequisites) {
+        edges = new ArrayList<List<Integer>>();
+        for (int i = 0; i < numCourses; i++) {
+            edges.add(new ArrayList<Integer>());
+        }
+
+        visited = new int[numCourses];
+
+        for (int[] info : prerequisites) {
+            edges.get(info[1]).add(info[0]);
+            ++visited[info[0]];
+        }
+
+        Deque<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < numCourses; i++) {
+            //入度为0
+            if (visited[i] == 0) {
+                queue.offer(i);
+            }
+        }
+
+        int visitedSize = 0;
+        while (!queue.isEmpty()) {
+            ++visitedSize;
+            int v = queue.poll();
+            for (int n : edges.get(v)) {
+                --visited[n];
+                if (visited[n] == 0) {
+                    queue.offer(n);
+                }
+            }
+        }
+
+        return visitedSize == numCourses;
     }
 }
