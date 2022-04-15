@@ -1,7 +1,5 @@
 package com.kaka.LC101_200.LC121_130.topic127;
 
-import com.sun.org.apache.bcel.internal.generic.RET;
-
 /**
  * @Author : kaka
  * @Date: 2022-04-14 20:37
@@ -45,7 +43,7 @@ public class ReversePairs {
             return leftPairs + rightPairs;
         }
 
-        int crossPairs = mergerAndCount(nums, left, mid, right, temp);\
+        int crossPairs = mergerAndCount(nums, left, mid, right, temp);
         return leftPairs + rightPairs + crossPairs;
     }
 
