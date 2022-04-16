@@ -1,5 +1,7 @@
 package com.kaka.LC101_200.LC121_130.topic129;
 
+import java.util.Arrays;
+
 /**
  * @Author : kaka
  * @Date: 2022-04-16 13:13
@@ -11,4 +13,17 @@ package com.kaka.LC101_200.LC121_130.topic129;
  * https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/
  */
 public class GetLeastKNums {
+    /**
+     * 排序
+     */
+    public int[] getLeastNumbers(int[] arr, int k) {
+        int[] ret = new int[k];
+        Arrays.sort(arr);
+        for (int i = 0; i < k; i++) {
+            ret[i] = arr[i];
+        }
+        return ret;
+    }
+
+
 }
