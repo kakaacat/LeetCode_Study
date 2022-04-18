@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic129/GetLeastKNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic129/GetLeastKNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic130/Pow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,14 +301,8 @@
       <workItem from="1649851937750" duration="1588000" />
       <workItem from="1649939763076" duration="1169000" />
       <workItem from="1650013348632" duration="1136000" />
-      <workItem from="1650085841313" duration="689000" />
-    </task>
-    <task id="LOCAL-00226" summary="LeetCode_Study(283. 移动零)">
-      <created>1648432630939</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1648432630939</updated>
+      <workItem from="1650085841313" duration="1055000" />
+      <workItem from="1650250613104" duration="534000" />
     </task>
     <task id="LOCAL-00227" summary="LeetCode_Study(283. 移动零)">
       <created>1648432639331</created>
@@ -645,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650086220783</updated>
     </task>
-    <option name="localTasksCounter" value="275" />
+    <task id="LOCAL-00275" summary="LeetCode_Study(剑指 Offer 40. 最小的k个数)">
+      <created>1650086584723</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1650086584723</updated>
+    </task>
+    <option name="localTasksCounter" value="276" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,10 +744,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="551" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650086220157">
+    <state x="551" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650086584060">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="551" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650086220157" />
+    <state x="551" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650086584060" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
