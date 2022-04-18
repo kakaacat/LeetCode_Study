@@ -16,7 +16,7 @@ public class Pow {
      */
     public double myPow(double x, int n) {
         int N = n;
-        return N >= 0 ? pow(x, N) : 1.0 / pow(x, -N);
+        return N >= 0 ? pow(x, N) : 1.0 / pow(x, N);
     }
 
     private double pow(double x, int n) {
@@ -25,5 +25,21 @@ public class Pow {
         }
         double y = pow(x, n / 2);
         return n % 2 == 0 ? y * y : y * y * x;
+    }
+
+    /**
+     * 迭代
+     */
+    public double myPow2(double x, int n) {
+        double ans = 1.0;
+
+        for (int i = n; i != 0; i /= 2) {
+            if (i % 2 != 0) {
+                ans *= x;
+            }
+            x *= x;
+        }
+
+        return n < 0 ? 1 / ans : ans;
     }
 }
