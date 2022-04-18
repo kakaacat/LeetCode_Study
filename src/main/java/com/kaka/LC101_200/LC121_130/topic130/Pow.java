@@ -11,4 +11,19 @@ package com.kaka.LC101_200.LC121_130.topic130;
  * https://leetcode-cn.com/problems/powx-n/
  */
 public class Pow {
+    /**
+     * 递归
+     */
+    public double myPow(double x, int n) {
+        int N = n;
+        return N >= 0 ? pow(x, N) : 1.0 / pow(x, -N);
+    }
+
+    private double pow(double x, int n) {
+        if (n == 0) {
+            return 1.0;
+        }
+        double y = pow(x, n / 2);
+        return n % 2 == 0 ? y * y : y * y * x;
+    }
 }
