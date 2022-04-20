@@ -54,4 +54,39 @@ public class LongestPalindromicSubstring {
 
         return s.substring(begin, begin + maxLen);
     }
+
+    // 中心扩散
+    public String longestPalindrome2(String s) {
+        int len = s.length();
+        if (s == null || len < 1){
+            return "";
+        }
+
+
+        int begin = 0;
+        int end = 0;
+
+        for (int i = 0; i < len; i++) {
+
+            int odd_len = expandCenter(s, i, i);
+            int even_len = expandCenter(s, i, i + 1);
+
+            int curLen = Math.max(odd_len, even_len);
+            if (curLen > end - begin + 1) {     //+1会把长度相等的子串跳过
+                begin = i - (curLen - 1) / 2;
+                end = i + curLen / 2;
+            }
+        }
+
+        return s.substring(begin, end + 1);
+    }
+
+    private int expandCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+        }
+
+        return right - left - 1;
+    }
 }

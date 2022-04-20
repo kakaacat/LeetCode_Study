@@ -4,153 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="LeetCode_Study(50. Pow(x, n))">
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp01/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp01/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic101/CopyListWithRandomPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic101/CopyListWithRandomPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic101/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic101/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic102/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic102/MaxProfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic103/MaxAreaOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic103/MaxAreaOfIsland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic104/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic104/HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic105/MaxProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic105/MaxProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic106/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic106/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic106/TreeToDoublyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic106/TreeToDoublyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic107/KthLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic107/KthLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic108/BasicCalculatorII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic108/BasicCalculatorII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic109/CQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic109/CQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic110/ANode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic110/ANode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC101_110/topic110/CheckCompleteness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC101_110/topic110/CheckCompleteness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic111/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic111/MoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic112/MinSizeSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic112/MinSizeSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic113/AnnotatedNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic113/AnnotatedNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic113/MaxWidthOfBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic113/MaxWidthOfBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic114/RemoveKDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic114/RemoveKDigit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic115/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic115/SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic116/BTreePostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic116/BTreePostOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic117/DiagonalTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic117/DiagonalTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic118/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic118/WordSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic119/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic119/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic119/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic119/LFUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic119/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic119/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC111_120/topic120/SortLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC111_120/topic120/SortLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic121/CoinChangeII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic121/CoinChangeII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic122/SubarraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic122/SubarraySumEqualsK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic123/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic123/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic124/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic124/WordBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic125/ForgJumpSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic125/ForgJumpSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic126/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic126/CourseSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic127/ReversePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic127/ReversePairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic128/SpiralMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic128/SpiralMatrixII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic129/GetLeastKNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic129/GetLeastKNums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic130/Pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC101_200/LC121_130/topic130/Pow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic11/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic11/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic12/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic12/IntegerToRoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic13/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic13/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic14/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic14/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic15/HashMap+List.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic15/HashMap+List.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic15/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic15/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic15/LRUCache1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic15/LRUCache1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic16/KthLargestElementInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic16/KthLargestElementInAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic17/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic17/ReverseNodesInKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic18/SortAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic18/SortAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic19/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic19/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC11_20/topic20/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic20/MaximumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/day01/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/day01/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/day02/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/day02/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/day02/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/day02/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/topic03/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic03/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/topic04/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic04/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/topic05/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic05/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/topic06/ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic06/ZigZagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/topic07/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic07/ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/topic08/StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic08/StringToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/topic09/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic09/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC1_10/topic10/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic10/RegularExpressionMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic21/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic21/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic22/LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic22/LinkedListCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic23/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic23/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic24/BestTimetoBuyandSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic24/BestTimetoBuyandSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic25/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic25/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic26/IntersectionofTwoLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic26/IntersectionofTwoLinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic27/BTreeZigzagOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic27/BTreeZigzagOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic27/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic27/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic28/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic28/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic29/LowestCommonAncestorofABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic29/LowestCommonAncestorofABinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC21_30/topic30/AddStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC21_30/topic30/AddStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic31/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic31/NumberOfIslands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic31/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic31/UnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic32/ReverseLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic32/ReverseLinkedList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic33/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic33/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic34/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic34/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic35/LinkedListCycleII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic35/LinkedListCycleII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic36/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic36/MergeKSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic36/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic36/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic37/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic37/SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic38/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic38/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic39/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic39/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC31_40/topic40/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC31_40/topic40/TrappingRainWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic41/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic41/BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic42/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic42/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic43/BinaryTreeRightSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic43/BinaryTreeRightSideView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic44/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic44/ClimbingStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic45/ReorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic45/ReorderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic46/GetKthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic46/GetKthFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic47/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic47/Interval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic47/MergeInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic47/MergeInterval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic48/BinaryTreeMaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic48/BinaryTreeMaximumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic49/SqrtX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic49/SqrtX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC41_50/topic50/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC41_50/topic50/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic51/RemoveDuplicatesFromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic51/RemoveDuplicatesFromSortedListII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic52/BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic52/BinaryTreePreorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic53/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic53/EditDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic54/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic54/SortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic55/ConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic55/ConstructBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic56/ReverseWordInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic56/ReverseWordInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic57/BalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic57/BalancedBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic58/MaxDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic58/MaxDepthOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic59/MinWindowsSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic59/MinWindowsSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC51_60/topic60/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC51_60/topic60/NextPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic61/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic61/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic62/RestoreIPAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic62/RestoreIPAddresses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic63/SumRootToLeftNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic63/SumRootToLeftNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic64/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic64/SlidingWindowMaximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic65/PathSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic65/PathSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic66/FilstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic66/FilstMissingPositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic67/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic67/GenerateParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic68/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic68/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic69/DiameterOfBinatryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic69/DiameterOfBinatryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC61_70/topic70/ValidBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC61_70/topic70/ValidBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic71/ImplRand10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic71/ImplRand10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic72/MultStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic72/MultStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic73/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic73/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic74/LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic74/LongestValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic75/MinPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic75/MinPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic76/MaxLengthRepeatedSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic76/MaxLengthRepeatedSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic77/Subset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic77/Subset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic78/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic78/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic79/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic79/PalindromeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC71_80/topic80/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC71_80/topic80/PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic81/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic81/RotateImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic82/RemoveDuplicatesFromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic82/RemoveDuplicatesFromSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic83/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic83/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic84/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic84/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic85/CompareVersionNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic85/CompareVersionNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic86/InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic86/InvertBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic87/SearchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic87/SearchRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic88/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic88/UniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic89/FindMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic89/FindMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC81_90/topic90/FindPeekElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC81_90/topic90/FindPeekElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic91/SingleNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/topic91/SingleNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic92/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/topic92/LongestConsecutiveSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic93/SearchMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/topic93/SearchMatrixII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic94/ValidIPAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/topic94/ValidIPAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic95/SwapTowNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/topic95/SwapTowNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic96/MaxSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/topic96/MaxSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic97/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/topic97/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic98/DecodeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/topic98/DecodeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/topic99/LargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/topic99/LargestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC1_100/LC91_100/tpoic100/SerializeAndDeserialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC91_100/tpoic100/SerializeAndDeserialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,21 +303,7 @@
       <workItem from="1650013348632" duration="1136000" />
       <workItem from="1650085841313" duration="1055000" />
       <workItem from="1650250613104" duration="2180000" />
-      <workItem from="1650455448110" duration="955000" />
-    </task>
-    <task id="LOCAL-00231" summary="LeetCode_Study(209. 长度最小的子数组)">
-      <created>1648519398301</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
-      <option name="project" value="LOCAL" />
-      <updated>1648519398301</updated>
-    </task>
-    <task id="LOCAL-00232" summary="LeetCode_Study(662. 二叉树最大宽度)">
-      <created>1648624090566</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1648624090567</updated>
+      <workItem from="1650455448110" duration="2514000" />
     </task>
     <task id="LOCAL-00233" summary="LeetCode_Study(662. 二叉树最大宽度)">
       <created>1648626935794</created>
@@ -792,7 +634,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650455766601</updated>
     </task>
-    <option name="localTasksCounter" value="280" />
+    <task id="LOCAL-00280" summary="动态规划专练--（1）最长回文子串">
+      <created>1650456654951</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1650456654951</updated>
+    </task>
+    <task id="LOCAL-00281" summary="LeetCode_Study(文件结构优化)">
+      <created>1650456705294</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1650456705294</updated>
+    </task>
+    <option name="localTasksCounter" value="282" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -836,8 +692,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="LeetCode_Study(227. 基本计算器 II)" />
-    <MESSAGE value="LeetCode_Study(剑指 Offer 09. 用两个栈实现队列)" />
     <MESSAGE value="LeetCode_Study(958. 二叉树的完全性检验)" />
     <MESSAGE value="LeetCode_Study(283. 移动零)" />
     <MESSAGE value="LeetCode_Study(209. 长度最小的子数组)" />
@@ -861,7 +715,9 @@
     <MESSAGE value="LeetCode_Study(剑指 Offer 40. 最小的k个数)" />
     <MESSAGE value="LeetCode_Study(50. Pow(x, n))" />
     <MESSAGE value="动态规划专练---（1）5. 最长回文子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划专练---（1）5. 最长回文子串" />
+    <MESSAGE value="动态规划专练--（1）最长回文子串" />
+    <MESSAGE value="LeetCode_Study(文件结构优化)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(文件结构优化)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="128" key="#Menus_and_Toolbars" timestamp="1649297611052">
@@ -889,15 +745,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650455764956">
+    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650456703561">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650455764956" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650456703561" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
-    <state x="66" y="114" width="1350" height="632" key="DiffContextDialog" timestamp="1649297570854">
+    <state x="66" y="114" width="1350" height="632" key="DiffContextDialog" timestamp="1650456609916">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="66" y="114" width="1350" height="632" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1649297570854" />
+    <state x="66" y="114" width="1350" height="632" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1650456609916" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1644045979804" />
     <state x="668" y="124" key="FileChooserDialogImpl" timestamp="1647332720094">
       <screen x="0" y="0" width="1536" height="816" />
@@ -929,6 +785,10 @@
     </state>
     <state x="220" y="94" width="996" height="707" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1646619175899" />
     <state x="220" y="95" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1644825822402" />
+    <state x="805" y="320" key="VCS.ChangelistChooser" timestamp="1650456594213">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="805" y="320" key="VCS.ChangelistChooser/0.0.1536.816@0.0.1536.816" timestamp="1650456594213" />
     <state x="564" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1649297600481">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
