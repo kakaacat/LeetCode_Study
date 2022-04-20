@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic130/Pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC101_200/LC121_130/topic130/Pow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,14 +301,7 @@
       <workItem from="1649939763076" duration="1169000" />
       <workItem from="1650013348632" duration="1136000" />
       <workItem from="1650085841313" duration="1055000" />
-      <workItem from="1650250613104" duration="1651000" />
-    </task>
-    <task id="LOCAL-00229" summary="LeetCode_Study(283. 移动零)">
-      <created>1648433307868</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1648433307868</updated>
+      <workItem from="1650250613104" duration="2180000" />
     </task>
     <task id="LOCAL-00230" summary="LeetCode_Study(209. 长度最小的子数组)">
       <created>1648518838995</created>
@@ -646,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650252152775</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="LeetCode_Study(50. Pow(x, n))">
+      <created>1650252417221</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1650252417222</updated>
+    </task>
+    <option name="localTasksCounter" value="279" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -743,10 +743,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="551" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650252152114">
+    <state x="551" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650252416577">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="551" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650252152114" />
+    <state x="551" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650252416577" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1160@0.0.1536.824" timestamp="1641802319065" />
     <state x="576" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1200@0.0.1536.824" timestamp="1641712237390" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
