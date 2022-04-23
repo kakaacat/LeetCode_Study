@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp01/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp01/LongestPalindromicSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,14 +302,8 @@
       <workItem from="1650013348632" duration="1136000" />
       <workItem from="1650085841313" duration="1055000" />
       <workItem from="1650250613104" duration="2180000" />
-      <workItem from="1650455448110" duration="2514000" />
-    </task>
-    <task id="LOCAL-00233" summary="LeetCode_Study(662. 二叉树最大宽度)">
-      <created>1648626935794</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1648626935794</updated>
+      <workItem from="1650455448110" duration="2921000" />
+      <workItem from="1650543355976" duration="63000" />
     </task>
     <task id="LOCAL-00234" summary="LeetCode_Study(402. 移掉 K 位数字)">
       <created>1648694688272</created>
@@ -648,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650456705294</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <task id="LOCAL-00282" summary="动态规划专练--（1）最长回文子串">
+      <created>1650458274613</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1650458274613</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,9 +715,9 @@
     <MESSAGE value="LeetCode_Study(剑指 Offer 40. 最小的k个数)" />
     <MESSAGE value="LeetCode_Study(50. Pow(x, n))" />
     <MESSAGE value="动态规划专练---（1）5. 最长回文子串" />
-    <MESSAGE value="动态规划专练--（1）最长回文子串" />
     <MESSAGE value="LeetCode_Study(文件结构优化)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode_Study(文件结构优化)" />
+    <MESSAGE value="动态规划专练--（1）最长回文子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划专练--（1）最长回文子串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="128" key="#Menus_and_Toolbars" timestamp="1649297611052">
@@ -745,10 +745,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650456703561">
+    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650458273835">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650456703561" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650458273835" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
     <state x="66" y="114" width="1350" height="632" key="DiffContextDialog" timestamp="1650456609916">
       <screen x="0" y="0" width="1536" height="816" />
