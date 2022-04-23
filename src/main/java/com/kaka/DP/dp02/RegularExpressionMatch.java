@@ -24,7 +24,7 @@ public class RegularExpressionMatch {
             for (int j = 1; j <= n; j++) {
                 if (p.charAt(j - 1) == '*') {
                     dp[i][j] = dp[i][j - 2];
-                    if (match(s, p, i, j)) {
+                    if (match(s, p, i, j - 1)) {
                         dp[i][j] = dp[i][j] || dp[i - 1][j];
                     }
                 } else {
