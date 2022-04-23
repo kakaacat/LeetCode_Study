@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp02/RegularExpressionMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp02/RegularExpressionMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
@@ -304,13 +305,7 @@
       <workItem from="1650250613104" duration="2180000" />
       <workItem from="1650455448110" duration="2921000" />
       <workItem from="1650543355976" duration="63000" />
-    </task>
-    <task id="LOCAL-00234" summary="LeetCode_Study(402. 移掉 K 位数字)">
-      <created>1648694688272</created>
-      <option name="number" value="00234" />
-      <option name="presentableId" value="LOCAL-00234" />
-      <option name="project" value="LOCAL" />
-      <updated>1648694688273</updated>
+      <workItem from="1650715464340" duration="1425000" />
     </task>
     <task id="LOCAL-00235" summary="LeetCode_Study(402. 移掉 K 位数字)">
       <created>1648694772243</created>
@@ -648,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650458274613</updated>
     </task>
-    <option name="localTasksCounter" value="283" />
+    <task id="LOCAL-00283" summary="动态规划专练--（2)正则表达式匹配">
+      <created>1650715652294</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1650715652295</updated>
+    </task>
+    <option name="localTasksCounter" value="284" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,7 +694,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="LeetCode_Study(958. 二叉树的完全性检验)" />
     <MESSAGE value="LeetCode_Study(283. 移动零)" />
     <MESSAGE value="LeetCode_Study(209. 长度最小的子数组)" />
     <MESSAGE value="LeetCode_Study(662. 二叉树最大宽度)" />
@@ -717,7 +718,8 @@
     <MESSAGE value="动态规划专练---（1）5. 最长回文子串" />
     <MESSAGE value="LeetCode_Study(文件结构优化)" />
     <MESSAGE value="动态规划专练--（1）最长回文子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划专练--（1）最长回文子串" />
+    <MESSAGE value="动态规划专练--（2)正则表达式匹配" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划专练--（2)正则表达式匹配" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="128" key="#Menus_and_Toolbars" timestamp="1649297611052">
@@ -728,7 +730,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="651" y="271" key="#Notifications/0.0.1536.816@0.0.1536.816" timestamp="1645500230688" />
-    <state x="651" y="274" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1641980374560" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1650715576410">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1650715576410" />
     <state x="574" y="112" key="#com.intellij.ide.util.MemberChooser" timestamp="1649159304818">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -745,10 +750,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650458273835">
+    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650715651569">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650458273835" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650715651569" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
     <state x="66" y="114" width="1350" height="632" key="DiffContextDialog" timestamp="1650456609916">
       <screen x="0" y="0" width="1536" height="816" />
