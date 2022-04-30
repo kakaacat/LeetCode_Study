@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp02/RegularExpressionMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp02/RegularExpressionMatch.java" afterDir="false" />
-    </list>
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,21 +302,7 @@
       <workItem from="1650250613104" duration="2180000" />
       <workItem from="1650455448110" duration="2921000" />
       <workItem from="1650543355976" duration="63000" />
-      <workItem from="1650715464340" duration="1425000" />
-    </task>
-    <task id="LOCAL-00235" summary="LeetCode_Study(402. 移掉 K 位数字)">
-      <created>1648694772243</created>
-      <option name="number" value="00235" />
-      <option name="presentableId" value="LOCAL-00235" />
-      <option name="project" value="LOCAL" />
-      <updated>1648694772243</updated>
-    </task>
-    <task id="LOCAL-00236" summary="LeetCode_Study(归并排序)">
-      <created>1648780692894</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1648780692895</updated>
+      <workItem from="1650715464340" duration="1726000" />
     </task>
     <task id="LOCAL-00237" summary="LeetCode_Study(归并排序)">
       <created>1648866492842</created>
@@ -650,7 +633,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650715652295</updated>
     </task>
-    <option name="localTasksCounter" value="284" />
+    <task id="LOCAL-00284" summary="动态规划专练--（2)正则表达式匹配">
+      <created>1650717001408</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1650717001408</updated>
+    </task>
+    <task id="LOCAL-00285" summary="动态规划专练--（2)正则表达式匹配">
+      <created>1650717181490</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1650717181490</updated>
+    </task>
+    <option name="localTasksCounter" value="286" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,15 +747,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650715651569">
+    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1650717180940">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650715651569" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1650717180940" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
-    <state x="66" y="114" width="1350" height="632" key="DiffContextDialog" timestamp="1650456609916">
+    <state x="66" y="114" width="1350" height="632" key="DiffContextDialog" timestamp="1650717192420">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="66" y="114" width="1350" height="632" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1650456609916" />
+    <state x="66" y="114" width="1350" height="632" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1650717192420" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1644045979804" />
     <state x="668" y="124" key="FileChooserDialogImpl" timestamp="1647332720094">
       <screen x="0" y="0" width="1536" height="816" />
