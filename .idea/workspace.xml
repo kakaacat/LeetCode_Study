@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp03/GenerateParenthes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/DP/dp03/GenerateParenthes.java" afterDir="false" />
-    </list>
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,14 +304,7 @@
       <workItem from="1650543355976" duration="63000" />
       <workItem from="1650715464340" duration="1726000" />
       <workItem from="1651283706745" duration="834000" />
-      <workItem from="1651654027122" duration="1476000" />
-    </task>
-    <task id="LOCAL-00239" summary="LeetCode_Study(145. 二叉树的后序遍历)">
-      <created>1648868670592</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
-      <option name="project" value="LOCAL" />
-      <updated>1648868670592</updated>
+      <workItem from="1651654027122" duration="1501000" />
     </task>
     <task id="LOCAL-00240" summary="LeetCode_Study(498. 对角线遍历)">
       <created>1648977352697</created>
@@ -652,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651655568393</updated>
     </task>
-    <option name="localTasksCounter" value="288" />
+    <task id="LOCAL-00288" summary="动态规划专练--（3)括号生成">
+      <created>1651655739031</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1651655739032</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,10 +749,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1644483378562" />
-    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1651655567747">
+    <state x="391" y="0" width="850" height="666" key="CommitChangelistDialog2" timestamp="1651655738393">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1651655567747" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1651655738393" />
     <state x="686" y="101" width="850" height="666" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1645679657851" />
     <state x="66" y="114" width="1350" height="632" key="DiffContextDialog" timestamp="1650717192420">
       <screen x="0" y="0" width="1536" height="816" />
