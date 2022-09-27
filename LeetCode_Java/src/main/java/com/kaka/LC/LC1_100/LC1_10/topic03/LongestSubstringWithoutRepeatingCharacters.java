@@ -15,6 +15,7 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeatingCharacters {
     /**滑动窗口
      * 链接：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetc-2/
+     * 时间复杂度：O(n)
      * */
 
     public int lengthOfLongestSubstring1(String s) {

@@ -4,7 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="" />
+    <list default="true" id="d8263c3b-626d-489c-8cc0-ed901442df0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic14/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC11_20/topic14/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic03/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kaka/LC/LC1_100/LC1_10/topic03/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,6 +309,9 @@
       <workItem from="1650715464340" duration="1726000" />
       <workItem from="1651283706745" duration="834000" />
       <workItem from="1651654027122" duration="1501000" />
+      <workItem from="1655902802098" duration="44000" />
+      <workItem from="1656594314904" duration="394000" />
+      <workItem from="1657024083538" duration="1126000" />
     </task>
     <task id="LOCAL-00240" summary="LeetCode_Study(498. 对角线遍历)">
       <created>1648977352697</created>
