@@ -1,5 +1,6 @@
 #include <iostream>
 #include <unordered_set>
+#include <unordered_map>
 
 using namespace std;
 
@@ -35,4 +36,31 @@ int LongestSubstring(string s)
 	
 
 	return ans;
+}
+
+/*
+* hashmap ”≈ªØ
+*/
+int LongestSubstring(string s)
+{
+	unordered_map<char, int> map;
+
+	int left = -1, ans = 0;
+
+	for (int i = 0; i < s.size(); i++)
+	{
+		if (map.find(s[i]) == map.end())
+		{
+			map[s[i]] = i;
+			ans = max(ans, i - left + 1);
+		}
+		else
+		{
+			left = max(left, map[s[i]] + 1);
+			map[s[i]] = i;
+			ans = max(ans, i - left + 1);
+		}
+	}
+	return ans;
+
 }
