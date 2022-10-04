@@ -18,5 +18,8 @@
     <ClCompile Include="reverse_linkedList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="longest_substring_without_repeating_characters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

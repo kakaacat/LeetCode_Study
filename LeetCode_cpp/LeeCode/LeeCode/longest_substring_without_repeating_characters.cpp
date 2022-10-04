@@ -45,15 +45,18 @@ int LongestSubstring(string s)
 {
 	unordered_map<char, int> map;
 
-	int left = -1, ans = 0;
+	int left = 0, ans = 0;
 
 	for (int i = 0; i < s.size(); i++)
 	{
-		if (map.find(s[i]) == map.end())
+		//不存在就插入
+		//map[]  查找或插入
+		if (!map.count(s[i]))
 		{
 			map[s[i]] = i;
 			ans = max(ans, i - left + 1);
 		}
+		//存在就跟新位置并且移动左指针
 		else
 		{
 			left = max(left, map[s[i]] + 1);
