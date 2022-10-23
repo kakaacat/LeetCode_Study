@@ -33,7 +33,7 @@ ListNode* reverseList(ListNode* head)
 * \brief 递归
 * \param[in] head：链表头结点指针
 */
-ListNode* reverseList(ListNode* head)
+ListNode* reverseList2(ListNode* head)
 {
 	if (head == nullptr || head->next == nullptr)
 	{

@@ -41,7 +41,7 @@ int LongestSubstring(string s)
 /*
 * hashmap ”≈ªØ
 */
-int LongestSubstring(string s)
+int LongestSubstring2(string s)
 {
 	unordered_map<char, int> map;
 
