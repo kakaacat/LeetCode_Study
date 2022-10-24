@@ -1,4 +1,4 @@
-#include <amp.h>
+#include <amp.h> 
 #include <iostream>
 
 int main()
