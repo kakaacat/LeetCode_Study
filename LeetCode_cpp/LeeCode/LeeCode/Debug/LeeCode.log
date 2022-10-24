@@ -1,2 +1,5 @@
-﻿  amp.cpp
-  LeeCode.vcxproj -> D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\Debug\LeeCode.exe
+﻿  find_nums_repeat_K.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\find_nums_repeat_K.cpp(10,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\find_nums_repeat_K.cpp(43,20): warning C4018: “<”: 有符号/无符号不匹配
+find_nums_repeat_K.obj : error LNK2005: _main 已经在 amp.obj 中定义
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\Debug\LeeCode.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

@@ -142,6 +142,7 @@
     <ClCompile Include="amp.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="find_nums_repeat_K.cpp" />
     <ClCompile Include="longest_substring_without_repeating_characters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
