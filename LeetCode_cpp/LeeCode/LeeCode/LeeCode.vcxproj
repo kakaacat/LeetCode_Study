@@ -148,7 +148,10 @@
     <ClCompile Include="longest_substring_without_repeating_characters.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="remove_specific_position_in_linkedlist.cpp" />
+    <ClCompile Include="LRU.cpp" />
+    <ClCompile Include="remove_specific_position_in_linkedlist.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="reverse_linkedList.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
