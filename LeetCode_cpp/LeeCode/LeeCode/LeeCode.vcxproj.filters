@@ -27,5 +27,8 @@
     <ClCompile Include="find_nums_repeat_K.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="remove_specific_position_in_linkedlist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
