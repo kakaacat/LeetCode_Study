@@ -33,5 +33,8 @@
     <ClCompile Include="LRU.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Kth_Largest_Element_in_an_array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
