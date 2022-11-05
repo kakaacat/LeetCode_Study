@@ -5,6 +5,12 @@
 class Soulation
 {
 public:
+	/// <summary>
+	/// 三数之和
+	/// -转换成两数和
+	/// </summary>
+	/// <param name="nums"></param>
+	/// <returns></returns>
 	std::vector<std::vector<int>> threeSum(std::vector<int>& nums)
 	{
 		std::vector<std::vector<int>> ans;
