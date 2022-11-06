@@ -11,12 +11,12 @@ public:
 		int random = rand() % (end - start + 1) + start;
 		int base = nums[random];
 		
-		std::swap(base, nums[start]);
+		std::swap(nums[random], nums[start]);
 		int index = start;
 
 		// 从待快排区间的第二个元素开始，依次与base比较，如果大于等于base则将该元素
 		// 交换到index + 1位置，index++，使得最终index前面的元素都比base大。
-		for (int i = start + 1; i < end; i++)
+		for (int i = start + 1; i <= end; i++)
 		{
 			if (nums[i] >= base)
 			{
