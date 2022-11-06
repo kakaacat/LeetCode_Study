@@ -42,5 +42,8 @@
     <ClCompile Include="sum_3_nums.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="quick_sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
