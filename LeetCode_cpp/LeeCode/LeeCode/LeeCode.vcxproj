@@ -152,6 +152,7 @@
     <ClCompile Include="LRU.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="merge_two_list.cpp" />
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="remove_specific_position_in_linkedlist.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

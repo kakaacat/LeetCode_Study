@@ -45,7 +45,7 @@
     <ClCompile Include="quick_sort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="max_subarray.cpp">
+    <ClCompile Include="merge_two_list.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
