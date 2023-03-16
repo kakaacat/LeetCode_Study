@@ -48,6 +48,9 @@
     <ClCompile Include="merge_two_list.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binary_tree_traversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="two_sum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
