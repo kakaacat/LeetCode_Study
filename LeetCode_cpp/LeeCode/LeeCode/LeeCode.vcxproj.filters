@@ -54,5 +54,8 @@
     <ClCompile Include="two_sum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="longest_palindrome.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
