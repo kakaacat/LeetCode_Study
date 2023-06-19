@@ -57,5 +57,8 @@
     <ClCompile Include="longest_palindrome.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="search_in_rotated_sorted_array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

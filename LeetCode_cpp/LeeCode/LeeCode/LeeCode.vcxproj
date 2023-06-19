@@ -163,6 +163,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Reverse_nodes_in_kGroup.cpp" />
+    <ClCompile Include="search_in_rotated_sorted_array.cpp" />
     <ClCompile Include="sum_3_nums.cpp" />
     <ClCompile Include="two_sum.cpp" />
   </ItemGroup>
