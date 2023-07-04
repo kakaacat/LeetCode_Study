@@ -60,5 +60,8 @@
     <ClCompile Include="search_in_rotated_sorted_array.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="generate_parentheses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
