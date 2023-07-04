@@ -44,4 +44,38 @@ public:
 		}
 		return dp[n];
 	}
+
+	/*
+	* 回溯法
+	* 
+	*/
+	std::vector<std::string> generate(int n)
+	{
+		std::vector<std::string> result;
+		std::string current;
+		backtrack(result, current, 0, 0, n);
+		return result;
+	}
+
+private:
+	void backtrack(std::vector<std::string>& ans, std::string& cur,
+		int open, int close, int n) {
+		if (cur.size() == n * 2)	//n对括号
+		{
+			ans.push_back(cur);
+			return;
+		}
+		if (open < n)	//可以添加左括号	1对括号一个（
+		{
+			cur.push_back('(');
+			backtrack(ans, cur, open + 1, close, n);
+			cur.pop_back();		//回溯
+		}
+		if (close < open)	//可以添加右括号
+		{
+			cur.push_back(')');
+			backtrack(ans, cur, open, close + 1, n);
+			cur.pop_back();
+		}
+	}
 };
