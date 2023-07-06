@@ -31,4 +31,27 @@ public:
 		}
 		return true;
 	}
+
+
+	/// <summary>
+	/// 贪心
+	/// </summary>
+	/// <param name="nums"></param>
+	/// <returns></returns>
+	bool canJump2(std::vector<int>& nums) {
+		int n = nums.size();
+		int max_length = 0;
+		for (int i = 0; i < n; i++)
+		{
+			if (max_length >= i) //i位置可达
+			{
+				max_length = std::max(max_length, nums[i] + i); //更新最大可达
+				if (max_length >= n - 1)	//最大可达超出最后一位
+				{
+					return true;
+				}
+			}
+		}
+		return false;
+	}
 };
