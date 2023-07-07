@@ -16,13 +16,13 @@ public:
 		int max_length = 0;
 		int end = 0;
 		int step = 0;
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n - 1; i++) //最后一个不需要访问
 		{
 			//位置可达
 			if (max_length >= i)
 			{
 				max_length = std::max(max_length, nums[i] + i);
-				if (i == end) // 在子步骤内选择最优，更新下一个子步骤，然后step++；
+				if (i == end) // 在上个子步骤内选择最优，更新下一个子步骤，然后step++；
 				{
 					end = max_length;
 					step++;
