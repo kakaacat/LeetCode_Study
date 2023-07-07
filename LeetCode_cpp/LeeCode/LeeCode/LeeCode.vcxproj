@@ -148,6 +148,7 @@
     </ClCompile>
     <ClCompile Include="generate_parentheses.cpp" />
     <ClCompile Include="jump_game.cpp" />
+    <ClCompile Include="jump_game2.cpp" />
     <ClCompile Include="Kth_Largest_Element_in_an_array.cpp" />
     <ClCompile Include="longest_palindrome.cpp" />
     <ClCompile Include="longest_substring_without_repeating_characters.cpp">

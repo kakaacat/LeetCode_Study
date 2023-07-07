@@ -66,5 +66,8 @@
     <ClCompile Include="jump_game.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="jump_game2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
