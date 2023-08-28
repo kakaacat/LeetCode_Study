@@ -75,5 +75,8 @@
     <ClCompile Include="字符串转数字_腾讯.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="合并两个有序链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
