@@ -39,7 +39,7 @@ ListNode* reverseList2(ListNode* head)
 	{
 		return head;
 	}
-	ListNode* newHead = reverseList(head->next);
+	ListNode* newHead = reverseList2(head->next);
 	head->next->next = head;
 	head->next = nullptr;
 	return newHead;

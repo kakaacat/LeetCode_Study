@@ -1,2 +1,25 @@
-﻿  remove_specific_position_in_linkedlist.cpp
-  LeeCode.vcxproj -> D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\x64\Debug\LeeCode.exe
+﻿  binary_tree_traversal.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\binary_tree_traversal.cpp(34,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  generate_parentheses.cpp
+  jump_game.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\jump_game.cpp(24,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\jump_game.cpp(42,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  jump_game2.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\jump_game2.cpp(15,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Kth_Largest_Element_in_an_array.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\Kth_Largest_Element_in_an_array.cpp(10,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\Kth_Largest_Element_in_an_array.cpp(43,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  longest_palindrome.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\longest_palindrome.cpp(12,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  merge_two_list.cpp
+  quick_sort.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\quick_sort.cpp(32,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  Reverse_nodes_in_kGroup.cpp
+  search_in_rotated_sorted_array.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\search_in_rotated_sorted_array.cpp(15,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  sum_3_nums.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\sum_3_nums.cpp(22,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  two_sum.cpp
+  正在生成代码...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\x64\Debug\LeeCode.exe : fatal error LNK1120: 1 个无法解析的外部命令

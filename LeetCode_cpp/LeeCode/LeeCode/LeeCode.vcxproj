@@ -169,6 +169,7 @@
     <ClCompile Include="search_in_rotated_sorted_array.cpp" />
     <ClCompile Include="sum_3_nums.cpp" />
     <ClCompile Include="two_sum.cpp" />
+    <ClCompile Include="随机抽奖_腾讯.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
