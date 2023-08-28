@@ -169,7 +169,9 @@
     <ClCompile Include="search_in_rotated_sorted_array.cpp" />
     <ClCompile Include="sum_3_nums.cpp" />
     <ClCompile Include="two_sum.cpp" />
-    <ClCompile Include="两个链表相加.cpp" />
+    <ClCompile Include="两个链表相加.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="合并两个有序链表.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

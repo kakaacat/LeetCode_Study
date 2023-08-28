@@ -29,12 +29,15 @@ ListNode* add(ListNode* l1, ListNode* l2)
 		int n1 = l1 == nullptr ? 0 : l1->value;
 		int n2 = l2 == nullptr ? 0 : l2->value;
 
+		//if (l1 != nullptr) flag += l1->value;
+		//if (l2 != nullptr) flag += l2->value;
+
 		int tempVal = n1 + n2 + flag;
-		ListNode* node(new ListNode(tempVal % 10));
+		ListNode* node(new ListNode(tempVal % 10));		//flag % 10
 		cur->next = node;
 		cur = cur->next;
-
-		flag /= 10;
+		flag = tempVal / 10;
+		//flag /= 10;
 
 		if (l1 != nullptr) l1 = l1->next;
 		if (l2 != nullptr) l2 = l2->next;
