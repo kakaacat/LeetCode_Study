@@ -15,7 +15,7 @@ public:
 		}
 		else
 		{
-			list_.splice(list_.begin(), list_, map_[key]);	//key存在需更新key对应的缓存到list的头部
+			list_.splice(list_.begin(), list_, map_[key]);	//key存在需更新key对应的缓存到list的头部。splice从一个 list 转移元素给另一个。不复制或移动元素，仅重指向链表结点的内部指针。
 			return map_[key]->second;
 		}
 	}
@@ -37,6 +37,7 @@ public:
 				map_.erase(del_key);
 			}
 			list_.emplace_front(key, value); //如果key不存在，在头部加入新的缓存
+			//list_.push_front(std::pair<int, int>(key, value));
 			map_[key] = list_.begin();
 		}
 	}
