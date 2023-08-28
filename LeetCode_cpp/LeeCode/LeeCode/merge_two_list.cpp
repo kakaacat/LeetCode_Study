@@ -14,7 +14,7 @@ class Solution
 public:
 	//µü´ú
 	ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-		ListNode* preHead = new ListNode(-1);
+		ListNode* preHead (new ListNode(-1));
 		ListNode* prev = preHead;
 		while (list1 != nullptr && list2 != nullptr)
 		{
