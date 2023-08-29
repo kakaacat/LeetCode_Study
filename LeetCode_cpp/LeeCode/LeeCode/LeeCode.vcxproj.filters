@@ -81,5 +81,11 @@
     <ClCompile Include="两个链表相加.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="删除链表的倒数第 N 个结点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="无重复字符的最长子串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
