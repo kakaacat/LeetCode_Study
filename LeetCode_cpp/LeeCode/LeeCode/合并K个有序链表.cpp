@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <queue>
 
 using namespace std;
 
@@ -70,8 +71,45 @@ ListNode* mergeKLists2(vector<ListNode*>& lists)
 	return merge(lists, 0, lists.size() - 1);
 }
 
+
+/// <summary>
+/// 优先队列
+/// </summary>
+/// <returns></returns>
+ListNode* mergeKLists3(vector<ListNode*>& lists)
+{
+	auto cmp = [](const ListNode* a, const ListNode* b) {
+		return a->value > b->value;
+	};
+
+	priority_queue < ListNode*, vector<ListNode*>, decltype(cmp) >queue;
+
+	for (ListNode* head : lists)
+	{
+		if (head != nullptr) queue.push(head);
+	}
+
+	ListNode* preHead(new ListNode(-1));
+	ListNode* cur = preHead;
+
+	while (!queue.empty())
+	{
+		ListNode* node = queue.top();
+		queue.pop();
+		
+		if (node->next != nullptr)
+		{
+			queue.push(node->next);
+		}
+		cur->next = node;
+		cur = cur->next;
+	}
+
+	return preHead->next;
+}
+
+
 int main()
 {
-
 	return 0;
 }
