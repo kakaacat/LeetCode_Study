@@ -99,5 +99,8 @@
     <ClCompile Include="Pow_x_n.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="找出唯一重复的数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
