@@ -1,1 +1,4 @@
-﻿  LeeCode.vcxproj -> D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\x64\Debug\LeeCode.exe
+﻿  返回无序数组中第K个大的数字.cpp
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\返回无序数组中第K个大的数字.cpp(45,61): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\LeeCode\返回无序数组中第K个大的数字.cpp(38): warning C4715: “quickSort”: 不是所有的控件路径都返回值
+  LeeCode.vcxproj -> D:\IntelliJ IDEA\Studys\LeetCode_Study\LeetCode_cpp\LeeCode\x64\Debug\LeeCode.exe

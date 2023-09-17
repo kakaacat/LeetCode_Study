@@ -108,5 +108,14 @@
     <ClCompile Include="n皇后.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="括号匹配.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串中出现的次数最多的字母.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="返回无序数组中第K个大的数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
