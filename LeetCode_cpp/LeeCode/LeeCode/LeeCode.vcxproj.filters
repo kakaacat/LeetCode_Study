@@ -102,5 +102,11 @@
     <ClCompile Include="找出唯一重复的数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="string实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="n皇后.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
